@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.1.0" method="upgrade">
+	<name>COM_REGISTRATIONPRO</name>	
+	<creationDate>July 2014</creationDate>
+	<author>www.JoomlaShowroom.com</author>
+	<authorEmail>info@JoomlaShowroom.com</authorEmail>
+	<authorUrl>www.JoomlaShowroom.com</authorUrl>
+	<copyright>Copyright © 2014 - All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<version>v.3.2</version>
+	<description>
+	<![CDATA[
+		<h1>Event Registration Pro v.3.2 for Joomla 3</h1><p>
+		<div class="regpro_installpage" style="margin:15px;"><a href="http://www.joomlashowroom.com" target="_blank"><img src="components/com_registrationpro/assets/images/panellogo.png" alt="Event Registration Pro" border=0 align=center title="wwww.joomlashwroom.com"/></a></div>
+		<div></br></br><p><h1 style="color:red">WAIT! YOU AREN'T FINISHED!</h1></br></br>To complete your installation, please <a href="index.php?option=com_registrationpro&install=1" class="btn btn-primary btn-lg"> click here.</a></p></b></br></br></br></br></br></br></br></br></div>
+		</p>
+	]]>
+	</description>
+	<installfile>install.registrationpro.php</installfile>
+	
+	<files folder="frontend">
+		<filename>frontend.zip</filename>
+		<!--filename>regpro_modules.zip</filename-->
+		<filename>regpro_plugins.zip</filename>				
+	</files>
+	
+	<media destination="com_registrationpro" folder="backend/media">		
+		<folder>invoicepdf</folder>		
+		<filename>index.html</filename>
+	</media>
+		
+	<administration>		
+		<menu img="../administrator/components/com_registrationpro/assets/images/registrationpro.png" link="option=com_registrationpro">COM_REGISTRATIONPRO</menu>
+		
+		<submenu>
+			<menu img="../administrator/components/com_registrationpro/assets/images/menus/icon-16-home.png">SUBMENUES_HOME</menu>
+			<menu img="../administrator/components/com_registrationpro/assets/images/menus/icon-16-configuration.png" view="settings">SUBMENUES_CONFIGURATION</menu>
+			<menu img="../administrator/components/com_registrationpro/assets/images/menus/icon-16-events.png" view="events">SUBMENUES_EVENTS</menu>
+			<menu img="../administrator/components/com_registrationpro/assets/images/menus/icon-16-categories.png" view="categories">SUBMENUES_CATEGORIES</menu>			
+			<menu img="../administrator/components/com_registrationpro/assets/images/menus/icon-16-forms.png" view="forms">SUBMENUES_FORMS</menu>
+			<menu img="../administrator/components/com_registrationpro/assets/images/menus/icon-16-emails.png" view="emails">SUBMENUES_EMAILS</menu>
+			<menu img="../administrator/components/com_registrationpro/assets/images/menus/icon-16-locations.png" view="locations">SUBMENUES_LOCATIONS</menu>
+			<menu img="../administrator/components/com_registrationpro/assets/images/menus/icon-16-archives.png" view="archives">SUBMENUES_ARCHIVE</menu>
+			<menu img="../administrator/components/com_registrationpro/assets/images/menus/icon-16-discounts.png" view="coupons">SUBMENUES_DISCOUNT</menu>
+			<menu img="../administrator/components/com_registrationpro/assets/images/menus/icon-16-payments.png" view="plugins">SUBMENUES_PAYMENT</menu>
+			<menu img="../administrator/components/com_registrationpro/assets/images/menus/icon-16-searchs.png" view="search">SUBMENUES_SEARCH</menu>			
+		</submenu>
+		
+		<files folder="backend">
+			<filename>backend.zip</filename>
+			<filename>registrationpro.php</filename>
+			<folder>controllers</folder>
+			<folder>assets</folder>
+			<folder>install</folder>					
+		</files>
+
+		<languages folder="backend/languages-admin">
+			<language tag="en-GB">en-GB/en-GB.com_registrationpro.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_registrationpro.sys.ini</language>
+		</languages>
+	</administration>
+</extension>

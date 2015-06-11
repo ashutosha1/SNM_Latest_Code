@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Registration Pro Tickets</name>
+  <author>JoomlaShowroom.com</author>
+  <version>1.5.0</version>
+  <description>Definition for Registration Pro component Locations</description>
+  <reference>
+  	<table name="registrationpro_payment">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="product_name" translate="0">Title</field>
+  		<field type="text" name="product_name" translate="1">Ticket Name</field>		
+  		<field type="textarea" name="product_description" translate="1">Ticket Description</field>
+  	</table>
+  </reference>
+</joomfish>

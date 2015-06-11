@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Registration Pro Locations</name>
+  <author>JoomlaShowroom.com</author>
+  <version>1.5.0</version>
+  <description>Definition for Registration Pro component Locations</description>
+  <reference>
+  	<table name="registrationpro_locate">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="club" translate="0">Title</field>
+  		<field type="text" name="club" translate="1">Location Name</field>
+		<field type="text" name="street" translate="1">Street Name</field>
+		<field type="text" name="city" translate="1">City Name</field>
+		<field type="text" name="country" translate="1">Country Name</field>
+  		<field type="htmltext" name="locdescription" translate="1">Location Description</field>
+  	</table>
+  </reference>
+</joomfish>

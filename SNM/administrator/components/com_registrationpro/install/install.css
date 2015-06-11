@@ -1,0 +1,66 @@
+.icon-48-registrationpro  {
+	background:url("../assets/images/icon-48-registrationpro.png") no-repeat scroll 0 0 transparent;
+}
+
+.unfloat {
+	float: none;
+	clear: both;
+}
+
+.regpro_install_steps{
+	float: left; 
+	width: 20%;
+}
+.regpro_install_steps  div {
+	background-color:#F6F6F6;
+	border:1px solid #CCCCCC;	
+	font-weight:600;
+	margin-top:2px;
+	padding:5px 2px;
+	text-align:left;
+	width:80%;
+}
+.regpro_install_steps_active {
+	color:#2A6ACA;
+}
+
+.regpro_install_info {
+	float: left;
+	width: 80%;
+	min-height: 256px;
+	height: auto !important;
+	height: 256px;
+}
+
+.regpro_install_info fieldset {
+	min-height: 246px;
+	height: auto !important;
+	height: 256px;
+}
+
+
+#error_holder {
+	display: none;
+}
+
+#regpro_install_title {
+	float: left;
+	font-size: 14px;
+	margin: 10px 0 0 10px;
+}
+
+#regpro_install_loading {
+	float: left;
+	font-size: 14px;
+	margin: 10px 0 0 10px;
+	display: none;
+}
+
+
+#regpro_install_feedback {
+	float: left;
+	width: 90%;
+	font-size: 14px;
+	margin: 0 0 0 10px;
+}
+

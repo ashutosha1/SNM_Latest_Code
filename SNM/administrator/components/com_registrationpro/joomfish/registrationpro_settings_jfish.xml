@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Registration Pro Layout Texts</name>
+  <author>JoomlaShowroom.com</author>
+  <version>1.5.0</version>
+  <description>Definition for Registration Pro Component Frontend Layout Texts</description>
+  <reference>
+  	<table name="registrationpro_settings_jfish">
+  		<field type="referenceid" name="jfid" translate="0">ID</field>
+  		<field type="titletext" name="thistable" translate="1">This Content</field>
+  		<field type="text" name="datename" translate="1">Date</field>
+  		<field type="text" name="titlename" translate="1">Title</field>
+  		<field type="text" name="infobuttonname" translate="1">Info</field>
+  		<field type="text" name="locationname" translate="1">Location</field>
+  		<field type="text" name="cityname" translate="1">City</field>
+  		<field type="text" name="catfroname" translate="1">Category</field>
+  		<field type="htmltext" name="introtext" translate="1">Intro Text</field>
+  	</table>
+  </reference>
+</joomfish>

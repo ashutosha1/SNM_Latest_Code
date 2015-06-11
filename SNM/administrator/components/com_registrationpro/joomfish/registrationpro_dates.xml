@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Registration Pro Event Texts</name>
+  <author>JoomlaShowroom.com</author>
+  <version>1.5.0</version>
+  <description>Definition for Registration Pro Component Frontend Event Texts</description>
+  <reference>
+  	<table name="registrationpro_dates">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="titel" translate="1">Event Name</field>
+  		<field type="htmltext" name="shortdescription" translate="1">Event Short Description</field>
+		<field type="htmltext" name="datdescription" translate="1">Event Detailed Description</field>
+		<field type="htmltext" name="terms_conditions" translate="1">Event Detailed Description</field>
+  	</table>
+  </reference>
+</joomfish>

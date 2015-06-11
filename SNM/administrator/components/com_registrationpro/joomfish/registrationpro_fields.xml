@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Registration Pro Fields Texts</name>
+  <author>JoomlaShowroom.com</author>
+  <version>1.5.0</version>
+  <description>Definition for Registration Pro Component Frontend Fields</description>
+  <reference>
+  	<table name="registrationpro_fields">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="title" translate="1">Field Name</field>
+		<field type="htmltext" name="description" translate="1">Field Description</field>
+		<field type="text" name="values" translate="1">Field Value</field>	
+  	</table>
+  </reference>
+</joomfish>

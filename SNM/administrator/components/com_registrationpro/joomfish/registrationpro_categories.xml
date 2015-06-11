@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Registration Pro Categories</name>
+  <author>JoomlaShowroom.com</author>
+  <version>1.5.0</version>
+  <description>Definition for Registration Pro component Categories</description>
+  <reference>
+  	<table name="registrationpro_categories">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="catname" translate="0">Title</field>
+  		<field type="text" name="catname" translate="1">Category Name</field>
+  		<field type="htmltext" name="catdescription" translate="1">Category Description</field>
+  		<field type="checked_out_by" name="checked_out" translate="0">Check out by</field>
+  		<field type="checked_out_date" name="checked_out_time" translate="0">Check out date</field>
+  	</table>
+  </reference>
+</joomfish>

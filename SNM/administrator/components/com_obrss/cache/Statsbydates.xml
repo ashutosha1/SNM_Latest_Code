@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp stat="ok">
+	<!--This information is part of the FeedBurner Awareness API. If you want to hide this information, you may do so via your FeedBurner Account.-->
+	<feed id="fr1j35oe8u5hocga0shk8iu69c" uri="foobla/vdms">
+		<entry date="2010-11-02" circulation="3" hits="30" downloads="0" reach="0"/>
+		<entry date="2010-11-03" circulation="1" hits="18" downloads="0" reach="0"/>
+		<entry date="2010-11-04" circulation="3" hits="46" downloads="0" reach="1"/>
+		<entry date="2010-11-05" circulation="3" hits="43" downloads="0" reach="2"/>
+		<entry date="2010-11-06" circulation="1" hits="10" downloads="0" reach="0"/>
+		<entry date="2010-11-07" circulation="2" hits="27" downloads="0" reach="0"/>
+		<entry date="2010-11-08" circulation="2" hits="44" downloads="0" reach="2"/>
+		<entry date="2010-11-09" circulation="2" hits="45" downloads="0" reach="0"/>
+		<entry date="2010-11-10" circulation="3" hits="34" downloads="0" reach="1"/>
+		<entry date="2010-11-11" circulation="1" hits="15" downloads="0" reach="0"/>
+		<entry date="2010-11-12" circulation="3" hits="24" downloads="0" reach="0"/>
+		<entry date="2010-11-13" circulation="2" hits="6" downloads="0" reach="1"/>
+		<entry date="2010-11-14" circulation="0" hits="0" downloads="0" reach="0"/>
+		<entry date="2010-11-15" circulation="1" hits="15" downloads="0" reach="0"/>
+		<entry date="2010-11-16" circulation="2" hits="10" downloads="0" reach="0"/>
+		<entry date="2010-11-17" circulation="4" hits="21" downloads="0" reach="1"/>
+		<entry date="2010-11-18" circulation="2" hits="30" downloads="0" reach="1"/>
+		<entry date="2010-11-19" circulation="3" hits="33" downloads="0" reach="1"/>
+		<entry date="2010-11-20" circulation="3" hits="18" downloads="0" reach="0"/>
+	</feed>
+</rsp>
+

@@ -1,0 +1,1261 @@
+/* CSS Document */
+.icon-48-registrationpro {
+	background-image: url(../images/icon-48-registrationpro.png);
+	background-repeat: no-repeat;
+	padding-left:70px!important;
+	line-height:48px;
+	text-transform: capitalize;
+}
+
+.icon-48-rconfig {
+	background-image: url(../images/icon-48-rconfig.png);
+	background-repeat: no-repeat;
+	padding-left:70px!important;
+	line-height:48px;
+	text-transform: capitalize;
+}
+
+.icon-48-evmanager {
+	background-image: url(../images/icon-48-evmanager.png);
+	background-repeat: no-repeat;
+	padding-left:70px!important;
+	line-height:48px;
+	text-transform: capitalize;
+}
+
+.icon-48-rcategories {
+	background-image: url(../images/icon-48-rcategories.png);
+	background-repeat: no-repeat;
+	padding-left:70px!important;
+	line-height:48px;
+	text-transform: capitalize;
+}
+
+.icon-48-rforms {
+	background-image: url(../images/icon-48-rforms.png);
+	background-repeat: no-repeat;
+	padding-left:70px!important;
+	line-height:48px;
+	text-transform: capitalize;
+}
+
+.icon-48-remails {
+	background-image: url(../images/icon-48-remails.png);
+	background-repeat: no-repeat;
+	padding-left:70px!important;
+	line-height:48px;
+	text-transform: capitalize;
+}
+
+.icon-48-rlocations {
+	background-image: url(../images/icon-48-rlocations.png);
+	background-repeat: no-repeat;
+	padding-left:70px!important;
+	line-height:48px;
+	text-transform: capitalize;
+}
+
+.icon-48-rarchive {
+	background-image: url(../images/icon-48-rarchive.png);
+	background-repeat: no-repeat;
+	padding-left:70px!important;
+	line-height:48px;
+	text-transform: capitalize;
+}
+
+.icon-48-rdiscount {
+	background-image: url(../images/icon-48-rdiscount.png);
+	background-repeat: no-repeat;
+	padding-left:70px!important;
+	line-height:48px;
+	text-transform: capitalize;
+}
+
+.icon-48-rplugin {
+	background-image: url(../images/icon-48-rplugin.png);
+	background-repeat: no-repeat;
+	padding-left:70px!important;
+	line-height:48px;
+	text-transform: capitalize;
+}
+
+.icon-48-rsearch {
+	background-image: url(../images/icon-48-rsearch.png);
+	background-repeat: no-repeat;
+	padding-left:70px!important;
+	line-height:48px;
+	text-transform: capitalize;
+}
+
+.icon-48-rbadges {
+	background-image: url(../images/icon-48-rbadges.png);
+	background-repeat: no-repeat;
+	padding-left:70px!important;
+	line-height:48px;
+	text-transform: capitalize;
+}
+
+div.regpro_installpage {
+	margin: 0px;
+	padding:5px;
+	text-align:center;
+	font-size:14px;
+	font-weight:600;
+	color:#666;
+	width:100%;
+}
+
+/******** Class use to make border on every sections ********/
+.regpro_error {
+  background-color: #FFE;
+  border: 1px solid #CC9;
+  color:#C00;
+  text-transform:uppercase;
+  padding: 4px;
+  text-align:center;
+  vertical-align:middle;
+  font-weight:bold;
+}
+
+.regpro_outline {
+  border: 1px solid #cccccc;
+  background: #ffffff;
+	padding: 2px;
+}
+
+.regpro_vtop {
+	vertical-align:top;
+}
+
+.regpro_vtop_aright {
+	vertical-align:top;
+	text-align:right;
+}
+
+.regpro_vtop_aleft {
+	vertical-align:top;
+	text-align:left;
+}
+
+.regpro_vtop_acenter {
+	vertical-align:top;
+	text-align:center;
+}
+
+.regpro_vmiddle_aright {
+	vertical-align:middle;
+	text-align:right;
+}
+
+.regpro_vmiddle_aleft {
+	vertical-align:middle;
+	text-align:left;
+}
+
+.regpro_vmiddle_acenter {
+	vertical-align:middle;
+	text-align:center;
+}
+
+.regpro_aleft{
+	text-align:left;
+}
+
+.regpro_aright{
+	text-align:right;
+}
+
+.regpro_acenter{
+	text-align:center;
+}
+
+/* event discouint css */
+.regpro_event_discount {	
+	background: #FFFFCC;							
+}
+
+.regpro_cart_event_discount {	
+	background: #FFFFCC;
+	font-size:12px;
+	color:#FF0000;
+	text-transform:uppercase;						
+}
+
+/* registration form separator */
+.regpro_reg_form_separator {	
+	background: #FFFFCC;							
+}
+/* end */
+
+/* ajax loading css box */
+#ajaxmessagebox_frontend {
+	margin-bottom:10px;
+	width: auto;
+	padding: 4px;
+	border: solid 1px #DEDEDE;
+	background: #FFFFCC;
+	display: none;
+	text-align:center;
+										
+}
+
+/* content tables */
+.regpro_sectiontableheader {
+  background: #efefef;
+  color: #333;
+  font-weight: bold;
+  padding: 4px;
+  border-bottom: 1px solid #efefef;
+}
+
+.regpro_sectiontableheader-regpro {
+  background: #efefef;
+  color: #333;
+  font-weight: bold;
+  padding: 4px;
+  border-right: 1px solid #fff;
+}
+
+/* content tables */
+.regpro_header-regpro {
+  background: #efefef;
+  color: #333;
+  font-weight: bold;
+  padding: 4px;
+  border-right: 1px solid #fff;
+}
+
+.regpro_footer-regpro {
+  background: #efefef;
+  color: #333;
+  font-size:10px;
+  padding: 2px;
+  border-right: 1px solid #fff;
+}
+
+#td_conditional_result.loading {
+	background: url('../images/loading.gif') no-repeat;
+	display: block;
+	height: 16px;
+	width: 16px;
+}
+
+/************************************ Don't change these classes (Use by javascript classes)*******************************/
+
+input.errHilite, select.errHilite, textarea.errHilite {
+	border: 1px solid #DDC;
+	background-color: #FFE;
+	}
+label.errHilite {
+	color: #C00;
+	}
+	
+div#errors {
+	display: none;
+	margin-top: 1em;
+	background-color: #FFE;
+	border: 1px solid #CC9;
+	padding: .3em;
+	color: #C00;
+	font-weight: bold;
+	}
+	
+div#errors li {
+	list-style-type: none;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	padding: 1;
+	}
+div#errors li.heading {
+	list-style-type: none;
+	color: #000;
+	font-weight: normal;
+	font-style: normal;
+	margin: .2em 0;
+	padding: 1;
+	}
+
+		
+/* new css for quick icons */
+div#position-icon.pane-sliders .icon {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.cpanel div.icon, #cpanel div.icon {
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.cpanel div.icon, #cpanel div.icon {
+	text-align: center;
+	margin-right: 15px;
+	float: left;
+	margin-bottom: 15px;
+
+}
+.cpanel div.icon a, #cpanel div.icon a {
+	background-color: #fff;
+	background-position: -30px;
+	display: block;
+	float: left;
+	height: 97px;
+	width: 108px;
+	color: #565656;
+	vertical-align: middle;
+	text-decoration: none;
+	border: 1px solid #CCC;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition-property:
+		background-position,
+		-webkit-border-bottom-left-radius,
+		-webkit-box-shadow;
+	-moz-transition-property:
+		background-position,
+		-moz-border-radius-bottomleft,
+		-moz-box-shadow;
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+}
+
+#cpanel div.icon a:hover,
+#cpanel div.icon a:focus,
+#cpanel div.icon a:active,
+.cpanel div.icon a:hover,
+.cpanel div.icon a:focus,
+.cpanel div.icon a:active {
+	background-position: 0;
+	-webkit-border-bottom-left-radius: 50% 20px;
+	-moz-border-radius-bottomleft: 50% 20px;
+	border-bottom-left-radius: 50% 20px;
+	-webkit-box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+	box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+	position: relative;
+	z-index: 10;
+}
+
+#cpanel img,
+.cpanel img {
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+#cpanel span,
+.cpanel span {
+	display: block;
+	text-align: center;
+	font-size: 11px;
+}
+
+div.cpanel-left {
+	width: 54%;
+	float: left;
+}
+
+div.cpanel-right {
+	width: 45%;
+	float: right;
+}
+/* quick icons css ends */	
+
+#sortby{
+	width:290px;
+}
+#badgestyles{
+	width:290px;
+}
+select#fields{
+	width:150px;
+}
+select#fonts{
+	width:150px;
+}
+select#fontsizes{
+	width:70px;
+}	
+/***************************************** END Don't change these classes ****************************************/
+
+/**************** ADDED ON 12-03-2014 ***************************/
+
+.editor-area textarea{
+	width: 97% !important;
+}
+
+/**************** CODE ENDED *************************************/
+
+textarea{
+	resize: none;
+}
+
+#currency_value{
+	width : 100% !important;
+}
+
+#currency_sign_div{
+	text-align: center;
+}
+
+table.adminFooter{
+	line-height: 2;
+}
+
+table.adminFooter tr:first-child{
+	height: 10px;
+}
+
+#toolbar.div{
+	float: right;
+}
+
+.nav-tabs > li {
+margin-bottom: -1px;
+margin-right: -3px;
+}
+
+select.searchOption{
+	width: 100px !important;
+	margin-top: 6px;
+}
+
+#filter_state{float: right;margin-top: 6px;width: 120px !important;
+
+box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+background: -webkit-linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
+background: -moz-linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
+background: -o-linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
+background: linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
+background-clip: padding-box;
+background-color: #fff;
+outline: none;
+}
+
+
+select{
+outline: none !important;
+}
+.button{
+	width: 100px !important;
+	margin-right: 10px;
+}
+
+.adminSessionTable tr td:first-child{
+	width: 100px;
+}
+
+.userTable td{
+	text-align: center !important;
+}
+
+iframe { 
+width: 100% !important; 
+resize: none;
+}
+
+#recurrence_select,#recurrence_selectlist,#recurrence_selectlist_weekday{
+	width: 100px !important;
+}
+
+#recurrence_selectlist{
+	/*margin-left: 35px !important;*/
+}
+
+.componentheading{
+	font-size: 24px;
+	padding: 20px;
+}
+
+.email-tab li{
+	float: left !important;
+	width: auto;
+}
+
+.email-table{
+	border:thin solid #B0B0B0; border-spacing:1px;
+}
+
+.adminFooter{
+	border-top: thin solid rgb(229, 229, 229);
+}
+
+table.ticketsShow {
+	border: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+table.ticketsShow td {
+	border: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.ticketColumn{
+	margin: 0 !important;
+	border: none !important;
+	text-align: center !important;
+	background-color: #eee !important;
+	height: 100% !important;
+}
+
+table.adminform {
+	margin:0px !important;
+	padding:0px !important;
+	width:100% !important;
+}
+
+table.adminform td{
+	padding-right:15px !important;
+}
+
+table.table_tickets {
+}
+
+table.table_tickets tr#table_tickets_header {
+	background-color:#f0f5ff !important;
+}
+
+table.table_tickets td{
+	border:#ccc 1px solid !important;
+	text-align:center!important;
+	padding:10px!important;
+	vertical-align:middle!important;
+}
+
+table.eventEditTable {
+	width:100% !important;
+	border:none;
+}
+
+table.eventEditTable td{
+	border:none;
+	margin:0px !important;
+	padding:4px !important;
+	vertical-align:top !important;
+	text-align:left !important;
+	width:auto !important;
+}
+
+table.eventEditTable td#star{
+	width:5px !important;
+	font-size:18px;
+	font-style:bold;
+	font-weight:700;
+}
+
+table.eventEditTable td#label{
+	min-width:100px !important;
+	width:150px !important;
+	max-width:200px !important;
+	padding-right:10px !important;
+}
+
+table.eventEditTable td#label_w{
+	min-width:100px !important;
+	width:200px !important;
+	max-width:200px !important;
+	padding-right:10px !important;
+}
+
+iframe#shortdescription_ifr, iframe#datdescription_ifr, iframe#terms_conditions_ifr, iframe#catdescription_ifr{
+	width:100% !important;
+	height:200px !important;
+}
+
+select#catsid, select#locid, select#assetgroups_1, select#assetgroups_2, select#payment_method {
+	/*width:350px;*/
+}
+
+select#assetgroups_1, select#assetgroups_2, select#payment_method {
+	height:90px;
+}
+
+select#recurrence_select {
+	width:200px !important;
+}
+
+table.table_tickets {
+	background-color:#fff !important;
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+
+table.table_tickets  td {
+	border-color:#B8C5CE !important;
+	padding:9px !important;
+}
+
+table.table_tickets  tr#table_tickets_header{
+	background-color:#D3E9FA !important;
+}
+
+form#adminForm div.tab-content{
+	border:none !important;
+	padding:0px !important;
+	margin:0px !important;
+}
+
+ul.nav {
+	margin-bottom:0px !important;
+}
+
+.nav li.active a{
+	background-color:#f5faff !important;
+}
+
+form#adminForm div.tab-content{
+	background-color:#F5FAFE !important;
+	border:1px #ddd solid !important;
+	border-top:none !important;
+	padding:15px !important;
+	padding-top:20px !important;
+	padding-bottom:10px !important;
+	margin:0px !important;
+	margin-bottom:-1px !important;
+}
+
+table#table_events {
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+
+table#table_events  tr#table_events_header th {
+	text-align:center !important;
+}
+
+table#table_events  td {
+	padding:9px !important;
+	border-left:1px #eeeef0 solid !important;
+}
+
+table#table_events  td#checks_column {
+	border-left:none !important;
+}
+
+table#table_events  td#tickets_column {
+	background-color:#transparent !important;
+	padding:3px !important;
+	padding-top:0px !important;
+}
+
+table.mceToolbar td {
+	padding:1px !important;
+}
+
+#infinity_symbol {
+	font-family:serif;
+	font-size:16px;
+	font-weight:0;
+}
+
+table#eventTicketsShow {
+	width:100%;
+	padding:0px !important;
+	margin:0px !important;
+}
+
+table#eventTicketsShow th {
+	font-size:11px;
+	background-color:#def !important;
+	padding:0px !important;
+	margin:0px !important;
+	border:none !important;
+}
+
+table#eventTicketsShow td {
+	font-size:11px;
+	line-height:12px;
+	border:none !important;
+	padding:0px !important;
+	margin:0px !important;
+	padding-top:3px !important;
+	padding-bottom:2px !important;
+	vertical-align:top;
+}
+
+select#status {
+	background-color:#fff !important;
+	color:#444 !important;
+	padding:5px !important;
+	padding-left:2px !important;
+	margin:0px !important;
+	margin-bottom:7px !important;
+	margin-top:-3px !important;
+	
+}
+
+img#cat_image {
+	border:#abc 1px solid !important;
+	float:left;
+	margin-right:15px;
+	margin-bottom:6px;
+	max-width:220px;
+}
+
+img#event_img {
+	border:#abc 1px solid !important;
+	max-width:60px;
+}
+
+.btn-small {
+	margin-right:10px !important;
+	min-width:80px !important;
+	padding:4px 10px !important;
+}
+
+div#events_table_users {
+	margin-bottom:5px;
+	font-size:13px;
+	line-height:16px;
+	margin-top:-2px;
+}
+
+.btn-small-add {
+	padding:4px 10px !important;
+}
+
+table#table_order {
+	margin:0px !important;
+	padding:0px !important;
+	background-color:transparent !important;
+	border:none !important;
+	text-align:center !important;
+	width:100% !important;
+}
+
+table#table_order td{
+	margin:0px !important;
+	padding:0px !important;
+	background-color:transparent !important;
+	border:none !important;
+	text-align:center !important;
+	width:100% !important;
+}
+
+div#no_tickets {
+	width:100%;
+	font-size:12px;
+	text-align:center;
+	color:#700;
+}
+
+div#events_shortdescription {
+	margin-top:4px;
+	width:100%;
+	font-size:11px;
+	line-height:12px;
+	text-align:left;
+	color:#567;
+}
+
+a.btn-more{
+	max-width:80px !important;
+	margin-top:6px !important;
+	padding:0px !important;
+	margin:0px !important;
+	margin-top:10px !important;
+	padding-top:2px !important;
+	padding-bottom:2px !important;
+}
+
+table.table-striped {
+	background-color:transparent !important;
+}
+
+table.table-striped tr{
+	background-color:transparent !important;
+}
+
+table.table-striped td{
+	background-color:transparent !important;
+}
+
+table.table-striped td.events_devider{
+	background-color:#dde !important;
+	margin:0px !important;
+	padding:0px !important;
+}
+
+table.table-striped tr.events_sub td{
+	background-color:#f4f8ff !important;
+}
+
+div#sbox-window{
+	width:75% !important;
+	height:75% !important;
+	position:absolute !important;
+	left:12.5% !important;
+	top:12.5% !important;
+}
+
+#product_row {
+	background-color:#f0f8f0 !important;
+}
+
+table.adminform_search {
+	margin:0px !important;
+	padding:0px !important;
+	border:0px !important;
+	margin-bottom:15px !important;
+}
+
+table.adminform_search td{
+	margin:0px !important;
+	padding:0px !important;
+	border:0px !important;
+	vertical-align:top !important;
+}
+
+table.adminform_search input, table.adminform_search select, table.adminform_search button{
+	margin:0px !important;
+}
+
+input#message_color{
+	width:170px !important;
+	margin:0px !important;
+}
+
+div#search_div {
+	background-color: #def;
+	padding-top: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-top: -5px;
+	margin-bottom: 10px;
+	margin-left: 14px;
+	border-radius: 2px;
+}
+
+select#eventids {
+	width:100% !important;
+	min-width:400px !important;
+	height:200px !important;
+}
+
+table.eventRepeating {
+	vertical-align:top !important;
+}
+
+table.eventRepeating  td#recurrence_output {
+	margin:0px !important;
+	padding:0px !important;
+	vertical-align:top !important;
+	text-align:left !important;
+}
+
+table.eventRepeating  td#recurrence_output select {
+	margin:0px !important;
+	margin-left:5px !important;
+	margin-right:5px !important;
+}
+
+select#recurrence_selectlist {
+	width:199px !important;
+}
+
+input.hiddenElement {
+	display:none !important;
+}
+
+h1.page-title {
+	margin-left:-30px !important;
+}
+
+table#table_dash {
+	border-collapse:collapse;
+	width:100%;
+}
+
+table#table_dash td{
+	border:1px #abc solid;
+	font-size:11px;
+	color:#000;
+	padding:4px;
+}
+
+table#table_dash td#title{
+	background-color:#f0f5ff !important;
+	font-size:12px;
+	font-style:bold;
+	font-weight:700;
+	padding:10px;
+}
+
+table#table_dash td#header{
+	background-color:#D0DDF5 !important;
+	font-size:12px;
+}
+
+img#cat_pdfimage{
+	width:400px;
+	height:150px;
+	margin-bottom:10px;
+}
+
+#content .sidebar-collapse:before{
+	content: initial !important;
+}
+
+#content .sidebar{
+	margin: 0px 0px 10px 0px!important;
+	border: 0px !important;
+}
+
+@media screen and (max-width: 767px) {
+    #content .sidebar:before{
+		width: auto !important;
+		min-width: initial !important;
+    }
+	#content .sidebar{
+		width: 100% !important;
+		
+	}
+}
+
+.dashboard-menu{
+	padding: 0 !important;
+	border: 0px;
+	border: 0px !important;
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+#content .nav-list-ace{
+	margin: 0 !important;
+}
+
+.dashboard-title{
+	margin-left: 5px;
+	margin-top: 10px;
+	color: #567;
+	font-size: initial !important;
+}
+
+#sidebar_top{
+	background-color: #ddeeff;
+	margin-bottom: 15px;
+}
+
+.dashboard-statistics-header{
+	margin-left: 7px;
+	color: #567;
+}
+
+.dashborad-select-element{
+	width: auto !important;
+	float:right;
+}
+.statistics-error{
+	padding: 30px;
+	text-align: left;
+	color: #aaa;
+	border: 1px solid #ccd;
+}
+
+#chart_div{
+	width: 100%;
+	height: 250px;
+}
+
+.y-offset{
+	margin-bottom: 5px;
+	/* border: 2px solid #000; */
+}
+
+.x-offset{
+	margin-left: 10px;
+	/*border: 2px solid #000;*/
+}
+
+.row-fluid [class*="no-gutter"] { margin-left:0 !important; }
+
+.regpro-images{
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+#content .nav-list-ace>li>a>[class*="icon-"]:first-child{
+	font-size: 18px !important;
+	min-width: inherit !important;
+}
+
+@media screen and (max-width: 930px) and (min-width: 768px) {
+	#content .nav-list-ace>li>a{
+		font-size: 12px;
+	}
+	
+	#content .nav-list-ace>li>a>[class*="icon-"]:first-child{
+		font-size: 0px !important;
+	}
+	
+	#content .sidebar:before{
+		width: 112px !important;
+	}
+	.regpro-logo-image{
+		margin-left: 12px !important;
+	}
+	
+	#add_early_discount,
+	#list_early_discount,
+	#list_group_discount,
+	#add_group_discount,
+	#list_ticket_add,
+	#ticket_form_add,
+	#list_ticket,
+	#ticket_form,
+	#form-area,
+	#field-area{
+		width: 100% !important;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 765px){
+	div#search_div {
+		margin-left: auto !important;
+	}
+	
+	#my-responsive-tabs li{
+		width: 100% !important;
+	}
+	
+	input[type="text"],textarea,select{
+		width: 100% !important;
+		height: 28px !important;
+		box-sizing: border-box !important;
+	}
+}
+#content .sidebar:before{
+	width: 14.4%;
+}
+.regpro-footer{
+	margin-top:35px;
+	height: 130px;
+	border-top:thin solid rgb(229,229,229) !important;
+	padding: 10px;
+}
+
+.container-fluid{
+	padding: 0px !important;
+}
+
+#table_events_header th{
+	text-align:center;
+}
+
+.events_table td{
+	border: 1px solid #ddd !important;
+}
+
+.currency-sign{
+	text-align: center;
+	font-size: 30px;
+	vertical-align: middle;
+	padding-top: 30px;
+}
+
+#disable_remiders0-lbl,#disable_remiders1-lbl,
+#event_moderation0-lbl,#event_moderation1-lbl,
+#enablepdf0-lbl,#enablepdf1-lbl,
+#include_pending_reg0-lbl,#include_pending_reg1-lbl,
+#require_registration0-lbl,#require_registration1-lbl,
+#duplicate_email_registration0-lbl,#duplicate_email_registration1-lbl,
+#default_userstatus_free_events0-lbl,#default_userstatus_free_events1-lbl,
+#default_userstatus_offline_payment0-lbl,#default_userstatus_offline_payment1-lbl,
+#showhead0-lbl,#showhead1-lbl,
+#show_footer0-lbl,#show_footer1-lbl,
+#show_poster0-lbl,#show_poster1-lbl,
+#show_poster_cal0-lbl,#show_poster_cal1-lbl,
+#rss_enable0-lbl,#rss_enable1-lbl,
+#disablethanksmessage0-lbl,#disablethanksmessage1-lbl,
+#event_terms_and_conditions0-lbl,#event_terms_and_conditions1-lbl,
+#frontend_help_link0-lbl,#frontend_help_link1-lbl,
+#accepted_registration_reports0-lbl,#accepted_registration_reports1-lbl,
+#showintro0-lbl,#showintro1-lbl,
+#showeventdates0-lbl,#showeventdates1-lbl,
+#showeventtimes0-lbl,#showeventtimes1-lbl,
+#showpricecolumn0-lbl,#showpricecolumn1-lbl,
+#showlocationcolumn0-lbl,#showlocationcolumn1-lbl,
+#showshortdescriptioncolumn0-lbl,#showshortdescriptioncolumn1-lbl,
+#collapse_categories0-lbl,#collapse_categories1-lbl,
+#maxseat0-lbl,#maxseat1-lbl,
+#pendingseat0-lbl,#pendingseat1-lbl,
+#registeredseat0-lbl,#registeredseat1-lbl,
+#show_all_dates_in_calendar0-lbl,#show_all_dates_in_calendar1-lbl,
+#show_calendar_registration_flag0-lbl,#show_calendar_registration_flag1-lbl,
+#calendar_category_filter0-lbl,#calendar_category_filter1-lbl,
+#show_max_seats_on_details_page0-lbl,#show_max_seats_on_details_page1-lbl,
+#show_avaliable_seats_on_details_page0-lbl,#show_avaliable_seats_on_details_page1-lbl,
+#showtime0-lbl,#showtime1-lbl,
+#showevdesc0-lbl,#showevdesc1-lbl,
+#showtitle0-lbl,#showtitle1-lbl,
+#showlocation0-lbl,#showlocation1-lbl,
+#showurl0-lbl,#showurl1-lbl,
+#show_registered_seats_on_details_page0-lbl,#show_registered_seats_on_details_page1-lbl,
+#showmapserv0-lbl,#showmapserv1-lbl,
+#showcategory0-lbl,#showcategory1-lbl,
+#multiple_registration_button0-lbl,#multiple_registration_button1-lbl,
+#enable_discount_code0-lbl,#enable_discount_code1-lbl,
+#enable_mandatory_field_note0-lbl,#enable_mandatory_field_note1-lbl,
+#publishedloc0-lbl,#publishedloc1-lbl,
+#publishedcat0-lbl,#publishedcat1-lbl,
+#published0-lbl,#published1-lbl,
+#shw_attendees0-lbl,#shw_attendees1-lbl,
+#allowgroup0-lbl,#allowgroup1-lbl,
+#force_groupregistration0-lbl,#force_groupregistration1-lbl,
+#registra0-lbl,#registra1-lbl,
+#enable_create_user0-lbl,#enable_create_user1-lbl{
+	min-width: 84px;
+	padding: 2px 12px;
+}
+
+#disable_remiders0-lbl,
+#event_moderation0-lbl,
+#enablepdf0-lbl,
+#include_pending_reg0-lbl,
+#require_registration0-lbl,
+#duplicate_email_registration0-lbl,
+#default_userstatus_free_events0-lbl,
+#default_userstatus_offline_payment0-lbl,
+#showhead0-lbl,
+#show_footer0-lbl,
+#show_poster0-lbl,
+#show_poster_cal0-lbl,
+#rss_enable0-lbl,
+#disablethanksmessage0-lbl,
+#event_terms_and_conditions0-lbl,
+#frontend_help_link0-lbl,
+#accepted_registration_reports0-lbl,
+#showintro0-lbl,
+#showeventdates0-lbl,
+#showeventtimes0-lbl,
+#showpricecolumn0-lbl,
+#showlocationcolumn0-lbl,
+#showshortdescriptioncolumn0-lbl,
+#collapse_categories0-lbl,
+#maxseat0-lbl,
+#pendingseat0-lbl,
+#registeredseat0-lbl,
+#show_all_dates_in_calendar0-lbl,
+#show_calendar_registration_flag0-lbl,
+#calendar_category_filter0-lbl,
+#show_max_seats_on_details_page0-lbl,
+#show_avaliable_seats_on_details_page0-lbl,
+#showtime0-lbl,
+#showevdesc0-lbl,
+#showtitle0-lbl,
+#showlocation0-lbl,
+#showurl0-lbl,
+#show_registered_seats_on_details_page0-lbl,
+#showmapserv0-lbl,
+#showcategory0-lbl,
+#multiple_registration_button0-lbl,
+#enable_discount_code0-lbl,
+#enable_mandatory_field_note0-lbl,
+#publishedloc0-lbl,
+#publishedcat0-lbl,
+#published0-lbl,
+#shw_attendees0-lbl,
+#allowgroup0-lbl,
+#force_groupregistration0-lbl,
+#registra0-lbl,
+#enable_create_user0-lbl{
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+#disable_remiders1-lbl,
+#event_moderation1-lbl,
+#enablepdf1-lbl,
+#include_pending_reg1-lbl,
+#require_registration1-lbl,
+#duplicate_email_registration1-lbl,
+#default_userstatus_free_events1-lbl,
+#default_userstatus_offline_payment1-lbl,
+#showhead1-lbl,
+#show_footer1-lbl,
+#show_poster1-lbl,
+#show_poster_cal1-lbl,
+#rss_enable1-lbl,
+#disablethanksmessage1-lbl,
+#event_terms_and_conditions1-lbl,
+#frontend_help_link1-lbl,
+#accepted_registration_reports1-lbl,
+#showintro1-lbl,
+#showeventdates1-lbl,
+#showeventtimes1-lbl,
+#showpricecolumn1-lbl,
+#showlocationcolumn1-lbl,
+#showshortdescriptioncolumn1-lbl,
+#collapse_categories1-lbl,
+#maxseat1-lbl,
+#pendingseat1-lbl,
+#registeredseat1-lbl,
+#show_all_dates_in_calendar1-lbl,
+#show_calendar_registration_flag1-lbl,
+#calendar_category_filter1-lbl,
+#show_max_seats_on_details_page1-lbl,
+#show_avaliable_seats_on_details_page1-lbl,
+#showtime1-lbl,
+#showevdesc1-lbl,
+#showtitle1-lbl,
+#showlocation1-lbl,
+#showurl1-lbl,
+#show_registered_seats_on_details_page1-lbl,
+#showmapserv1-lbl,
+#showcategory1-lbl,
+#multiple_registration_button1-lbl,
+#enable_discount_code1-lbl,
+#enable_mandatory_field_note1-lbl,
+#publishedloc1-lbl,
+#publishedcat1-lbl,
+#published1-lbl,
+#shw_attendees1-lbl,
+#allowgroup1-lbl,
+#force_groupregistration1-lbl,
+#registra1-lbl,
+#enable_create_user1-lbl{
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.general-heading{
+	background-color:#e0e8f4;
+	font-weight:bold;
+	text-align:center;padding:6px;
+}
+#ajaxmessagebox ,#ajaxmessagebox_add,#ajaxmessagebox_group,#ajaxmessagebox_early,#ajaxmessagebox_session{
+	margin-bottom:10px;
+	padding: 4px;
+	border: solid 1px #DEDEDE;
+	background: #FFFFCC;
+	display: none;
+	text-align:center;
+}
+
+
+.session-heading{
+	margin-right:40px;
+	background-color:#e0e8f4;
+	padding:6px;
+	padding-left:14px;
+	font-weight:bold;
+	font-style:bold;
+}
+
+#curr_sign,#curr_sign_add{
+	float: left;
+	margin-top: 6px;
+	margin-left: 4px;
+}
+
+.text_area{
+	width: 20px !important;
+}

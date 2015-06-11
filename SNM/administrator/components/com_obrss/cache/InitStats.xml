@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp stat="ok">
+	<!--This information is part of the FeedBurner Awareness API. If you want to hide this information, you may do so via your FeedBurner Account.-->
+	<feed id="fr1j35oe8u5hocga0shk8iu69c" uri="foobla/vdms">
+		<entry date="2010-11-11" circulation="1" hits="15" downloads="0" reach="0"/>
+	</feed>
+</rsp>
+
