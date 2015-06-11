@@ -1,0 +1,171 @@
+.ddmx{
+width:100%;
+margin:-2px 0px 0px -5px;
+padding:0px 0px 0px 0px;
+height:29px;
+background:#389bd6 url("http://cdn-media.nirankari.org/intranet/modules/mod_swmenufree/images/nav_bg.png") repeat-x; !important;
+float:left;
+border:0px none #FFFFFF !important ;
+}
+
+.ddmx a.item1,
+.ddmx a.item1:hover,
+.ddmx a.item1-active,
+.ddmx a.item1-active:hover {
+ margin:10px 0 0 0;
+
+	padding:0 12px;
+
+	list-style-type:none;
+
+	display:inline;
+	font:14px normal Arial, Helvetica, sans-serif;
+
+	color:#FFFFFF;
+ text-decoration: none !important ; 
+ 
+ white-space: nowrap; 
+ position: relative; 
+ 	/*background:#389bd6 url("http://www.nirankari.org/intranet/modules/mod_swmenufree/images/nav_bgt.png") no-repeat; !important ; */
+}
+/*.ddmx td.item11 {
+ background-color: #389bd6 !important ; 
+ padding:0 !important ; 
+ border-top: 1px solid #000000 !important ; 
+ border-right: 1px solid #000000 !important ; 
+ border-bottom: 1px solid #000000;
+ white-space: nowrap !important ; 
+}
+.ddmx td.item11-last {
+ background-color: #389bd6 !important ; 
+ padding:0 !important ; 
+ border: 1px solid #000000 !important ; 
+ border-right: 0 !important ; 
+ border-left: 0 !important ; 
+ white-space: nowrap; 
+}
+.ddmx td.item11-acton {
+ padding:0 !important ; 
+ border-top: 1px solid #000000 !important ; 
+ border-right: 1px solid #000000 !important ; 
+ white-space: nowrap; 
+ border-bottom: 1px solid #000000;
+}
+.ddmx td.item11-acton-last {
+ border: 1px solid #000000 !important ; 
+}
+.ddmx .item11-acton-last a.item1,
+.ddmx .item11-acton a.item1,
+.ddmx .item11-acton-last a:hover,
+.ddmx .item11-acton a:hover,
+.ddmx .item11 a:hover,
+.ddmx .item11-last a:hover,
+.ddmx a.item1-active,
+.ddmx a.item1-active:hover {
+ 	background:#389bd6 url("http://www.nirankari.org/intranet/modules/mod_swmenufree/images/nav_bgt.png") no-repeat; !important ; 
+ text-decoration:none;
+
+	color:#FFFFFF; 
+ background-color: #389bd6 !important ; 
+}
+
+.ddmx a.item2,
+.ddmx a.item2:hover,
+.ddmx a.item2-active,
+.ddmx a.item2-active:hover {
+ margin:1px 0 0 0;
+
+	padding:0 12px;
+
+	list-style-type:none;
+
+	display: block; 
+	font:14px normal Arial, Helvetica, sans-serif;
+
+	color:#FFFFFF;
+ text-decoration: none !important ; 
+ 
+ white-space: nowrap; 
+ position: relative; 
+ 	background:#389bd6 url("http://www.nirankari.org/intranet/modules/mod_swmenufree/images/nav_bgt.png") no-repeat; !important ; 
+ white-space: nowrap; 
+ position: relative; 
+ z-index:500; 
+ opacity:0.9; 
+}
+
+.ddmx a.item2 {
+background-color: #389bd6 !important ; 
+ padding:0 !important ; 
+ border-top: 1px solid #000000 !important ; 
+ border-right: 1px solid #000000 !important ; 
+ border-bottom: 1px solid #000000;
+ white-space: nowrap !important ; 
+}
+.ddmx a.item2-last {
+background-color: #389bd6 !important ; 
+ padding:0 !important ; 
+ border: 1px solid #000000 !important ; 
+ border-right: 0 !important ; 
+ border-left: 0 !important ; 
+ white-space: nowrap; 
+ z-index:500; 
+}
+.ddmx a.item2:hover,
+.ddmx a.item2-active,
+.ddmx a.item2-active:hover {
+background-image:none; background-color: #389bd6 !important ; 
+ color: #000000 !important ; 
+ border-top: 1px solid #000000 !important ; 
+ border-left: 1px solid #000000 !important ; 
+ border-right: 1px solid #000000 !important ; 
+}*/
+.ddmx td { display:block;
+	float:left;
+	line-height:29px;
+	color:#304e67;
+	background:url(http://www.nirankari.org/intranet/modules/mod_swmenufree/images/menu_li_bg.png) no-repeat;
+        padding-top: 7px;
+        height: 22px;
+}
+.ddmx td:first-child { background:none; }
+.ddmx a.item1, .ddmx a.item1:hover, .ddmx a.item1-active, .ddmx a.item1-active:hover
+        {
+                /*padding:0px 20px;     11 june due to increase width*/
+		padding: 0px 30px;	
+                font-size:12px;
+                font-family:Arial, Helvetica, sans-serif;
+                color:#304e67;
+                text-transform:capitalize;
+                text-decoration:none;
+                text-align:center;
+                font-weight:bold;
+               
+        }
+
+        
+.ddmx .section {
+ border:0px none #FFFFFF !important ; 
+ position: absolute; 
+ visibility: hidden; 
+ display: block; 
+ z-index:-1;
+ background:#496491;
+ padding:0px;
+  width:17%;
+  margin:7px 0px 0px 0px;
+ 
+}
+.ddmx .section a{text-decoration: none; margin:0px; width:100%;font-size:10px; background:#496491; font-weight:normal;  padding:0px 2px 0px 10px; float:left; display:block; color:#fff;text-align:left;  clear:left; }
+
+.ddmx .section a:hover{text-decoration: margin:0px; none; font-size:10px; width:100%; font-weight:normal; background:#40a4e0;display:block; padding:0px 2px 0px 10px;text-align:left;   float:left; color:#fff; clear:left; }
+
+.ddmxframe {
+ border:0px none #FFFFFF !important ; 
+}
+* html .ddmx td { position:relative; } /* ie 5.0 fix */
+/*new css 11 june 2014 by dk*/
+.outer
+{
+width:101%;																							
+}
