@@ -1,0 +1,1 @@
+mysql -hlocalhost -unirankar_stagedb -pstagedb677 nirankar_snmjoomlastage -e "select cb.id, usr.name,usr.email from  jos_comprofiler cb, jos_users usr where cb.confirmed <> 1  and usr.id = cb.id order by cb.id desc"
