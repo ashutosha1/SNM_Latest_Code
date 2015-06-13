@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="muscolplayers" method="upgrade">
+  <name>Muscol - JW Player</name>
+  <author>JoomlaThat!</author>
+  <creationDate>March 2015</creationDate>
+  <copyright>(C) 2009 - 2015 www.joomlathat.com</copyright>
+  <license>GPLv2</license>
+  <authorEmail>support@joomlathat.com</authorEmail>
+  <authorUrl>http://www.joomlathat.com</authorUrl>
+  <version>2.4.2</version>
+  <description>JW Player for Music Collection component.</description>
+  <files>
+    <filename plugin="jwplayer">jwplayer.php</filename>
+    <folder>jwplayer</folder>
+    <folder>skins</folder>
+  </files>
+  <languages></languages>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="show_add_to_playlist" class="btn-group" type="radio" default="1" label="Show add to playlist button" description="Must be set to YES if you want people to be able to create playlists to be reproduced on JW Player MODULE for Music Collection">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        
+        <field name="width" type="text" default="100%" class="input-mini" label="Width" description="Forces width of the player (for 'One player per song' mode)" />
+        <field name="height" type="text" default="30" class="input-mini" label="Height" description="Forces height of the player (for 'One player per song' mode)" />
+       
+        <field name="playlist" type="list" default="none" class="input-small" label="Show playlist" description="To show the playlist on the album player">
+          <option value="none">None</option>
+          <option value="bottom">Bottom</option>
+          <option value="right">Right</option>
+        </field>
+       
+        <field name="playlistsize" type="text" default="" class="input-mini" label="Playlist size" description="Height or width of the playlist" />
+        
+        <field name="skin" type="text" default="" label="Skin" class="input-small" description="Load a Skin for the JW Player 6.8. Just type the name of the skin" />
+        
+      </fieldset>
+    </fields>
+  </config>
+</extension>

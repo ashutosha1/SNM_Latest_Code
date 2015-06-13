@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="regpro_gateways" method="upgrade">
+	<name>Registrationpro Payment Processor [Offline]</name>
+	<license>GPL</license>
+	<author>joomlashowroom</author>
+	<authorEmail>support@joomlashowroom.com</authorEmail>
+	<authorUrl>http://www.joomlashowroom.com</authorUrl>
+	<creationDate>July 2014</creationDate>
+	<copyright>Joomlashowroom</copyright>
+	<version>v.3.1.2</version>
+	<description>This plugin is used with registration pro component as Payment processors.</description>
+	<files>
+		<filename plugin="payoffline">payoffline.php</filename>
+		<filename>offline.gif</filename>
+	</files>
+	<config>
+		<fields name="params">	
+			<fieldset name="Basic">
+			<field name="payoffline_label" type="text" default="Offline Payment" label="Label" description="Label to use in Frontend Payment processor list" />
+			<field name="payoffline_body" type="textarea" filter="safehtml" cols="40" rows="20" default="Here you can enter your bank information for wire transfer or information for WesternUnion or any other Offline payment." label="Offline payment details" description="Here you can enter your bank information for wire transfer or information for WesternUnion or any other Offline payment." />								
+			</fieldset>
+		</fields>
+	</config>
+</extension>
