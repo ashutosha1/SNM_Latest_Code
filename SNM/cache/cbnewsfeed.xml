@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+	<channel>
+		<title>Joomlapolis News</title>
+		<description>Joomla social networking and Subscription Management software. Community Builder is the top rated, best supported, most complete and reliable community system there is for Joomla!</description>
+		<link>http://www.joomlapolis.com:80/news</link>
+		<lastBuildDate>Thu, 04 Jun 2015 08:44:52 +0000</lastBuildDate>
+		<generator>Joomla! 1.5 - Open Source Content Management</generator>
+		<language>en-gb</language>
+		<item>
+			<title>Community Builder 2.0.9 and 3 more releases</title>
+			<link>http://www.joomlapolis.com:80/news/18497-community-builder-209-and-3-more-releases</link>
+			<guid>http://www.joomlapolis.com:80/news/18497-community-builder-209-and-3-more-releases</guid>
+			<description><![CDATA[<p style="text-align: center;"><a href="http://www.joomlapolis.com:80/component/docman/doc_details/761-community-builder-209"><img src="http://www.joomlapolis.com:80/images/jpnewsletter/jpn201505/cb209_500.gif" alt="cb209 500" width="500" height="180" /></a></p>
+<p style="text-align: center;">The Next Generation Community Builder 2.0.9 is here<br />and it's <a href="http://www.joomlapolis.com:80/component/docman/doc_details/761-community-builder-209">free to download</a>.<br />-----</p>
+<p><strong>Community Builder 2.0.9</strong> is here and fixes 15 issues (detailed list in discussion thread) also has 3 feature improvements that:</p>
+<ul>
+<li>improve performance</li>
+<li>provide better stability with updated imagine library</li>
+<li>upgrade select2 library to version 4 needed for CB Activity 3.0 RC2</li>
+</ul>
+<p>Upgrading to Community Builder 2.0.9 can be done using the Joomla Extensions Update functionality or by simply downloading the CB 2.0.9 package and installing over your existing CB 2.0+ environment. If you are upgrading from CB 1.9.1, you should first take a look at video #30: <a class="pl-video-title-link yt-uix-tile-link yt-uix-sessionlink  spf-link " dir="ltr" href="https://www.youtube.com/watch?v=AtMsAhScimg&amp;list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX&amp;index=30" target="_blank" data-sessionlink="ei=BaSGVP6CDufmiwaLt4HYCA&amp;feature=plpp_video">CB 2.0 Tutorials - 30 - Upgrading from CB 1.9.1 to CB 2.0 - Expectations and first steps</a>, our <a href="http://www.joomlapolis.com:80/documentation/community-builder/getting-started">Getting started</a> articles and of course the <a href="http://www.joomlapolis.com:80/index.php?option=com_content&amp;view=article&amp;id=18492:cb-primer-book-designed-to-help-you-learn&amp;catid=6:news&amp;Itemid=19">CB Primer Book</a>.</p>
+<p>With the release of CB 2.0.9, we have also released:</p>
+<ul>
+<li>CB Activity 3.0 RC2</li>
+<li>CB Auto Actions 6.2.3 with new activity action</li>
+<li>CB Connect 7.0 b2</li>
+</ul>
+<p>Our <a href="http://www.joomlapolis.com:80/index.php?option=com_content&amp;view=article&amp;id=18463&amp;Itemid=198">CB 2.0 Compatibility</a> chart has been updated to reflect these new releases.</p>
+<p><a href="http://www.joomlapolis.com:80/forum/6-news-and-publicity/229924-community-builder-209-and-3-more-releases">Discuss the Community Builder 2.0.9 release on our forums</a>.</p>]]></description>
+			<author>nant@joomlapolis.com (Nick A.)</author>
+			<category>News</category>
+			<pubDate>Wed, 27 May 2015 20:59:19 +0000</pubDate>
+		</item>
+		<item>
+			<title>CB Activity 3.0 RC1 Released</title>
+			<link>http://www.joomlapolis.com:80/news/18496-cb-activity-30-rc1-released</link>
+			<guid>http://www.joomlapolis.com:80/news/18496-cb-activity-30-rc1-released</guid>
+			<description><![CDATA[<p><a href="http://www.joomlapolis.com:80/index.php?option=com_docman&amp;task=doc_details&amp;gid=760"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com:80/images/jpnewsletter/jpn201505/cbactivity30rc1_500.gif" alt="cbactivity30rc1 500" width="500" height="293" /></a></p>
+<p style="text-align: center;">The new CB Activty 3.0 RC1 (stable for live sites) is <a href="http://www.joomlapolis.com:80/index.php?option=com_docman&amp;task=doc_details&amp;gid=760">available for download</a><br />by all <a href="http://www.joomlapolis.com:80/index.php?option=com_content&amp;view=article&amp;id=18216&amp;Itemid=135">Professional members</a>.</p>
+<p>Let your users go wild and post their feeling-rich status messages and comments using the pixel-perfect fully responsive redesigned interface. This will certainly add an extra wow to your website!</p>
+<p>The main features of CB Activity 3.0 RC1 include:</p>
+<ul>
+<li>"What's on your mind?" posting</li>
+<li>Commenting everywhere</li>
+<li>Inline #hashtag support</li>
+<li>Inline emotions support (e.g., :smile:)</li>
+<li>Inline @username and @name type mentions</li>
+<li>Activity URLs automatically converted to clickable links</li>
+<li>10 built-in Actions (Feeling, Watching, Reading, ...) and you can add your own!</li>
+<li>62 built-in Emotions (smile, laughing, blush, ...) and you can add your own!</li>
+<li>Configurable limits everywhere (number of chars per post, comment, ...)</li>
+</ul>
+<p>Every profile gets it's own Activity tab, but you can also create Joomla menu items to your activity streams and there is also a Joomla module you can use.</p>
+<p>It is dead simple to install and publish and works great out of the box.</p>
+<p>You can of course make configuration changes to satisfy your specific use case.</p>
+<p>Take a quick look at our <a href="https://www.youtube.com/playlist?list=PLp0puRITgC7Nd1zDCB-fJFvR10H5mTgEF" target="_blank">CB Activity tutorials</a> to get the hang of things.</p>
+<p>CB Activity 3.0 RC1 is given it's release candidate status mainly because we have a number of extra features planned and did not want to push everything out in a big bang fashion.</p>
+<p>The roadmap is as follows:</p>
+<ul>
+<li>CB Activity 3.0.0 RC2 with new attachments, location and people tagging features<br />and any identified bug fixes found in RC1</li>
+<li>CB Activity 3.0.0 RC3 with activity hiding for specific types and from specific users<br />and bug fixes</li>
+<li>CB Activity 3.0.0 stable with any RC3 needed bug fixes</li>
+<li>New releases of other add-ons to take advantage of the new activity API</li>
+</ul>
+<p>So in other words, this is a quality release that can be installed on your live sites. It's just not as feature rich as we have planned and thus it is given the RC label.</p>
+<p><a href="http://www.joomlapolis.com:80/forum/6-news-and-publicity/229590-cb-activity-30-rc1-released">Discuss this on our forums</a>.</p>]]></description>
+			<author>nant@joomlapolis.com (Nick A.)</author>
+			<category>News</category>
+			<pubDate>Mon, 04 May 2015 13:50:57 +0000</pubDate>
+		</item>
+		<item>
+			<title>Community Builder 2.0.8 Released</title>
+			<link>http://www.joomlapolis.com:80/news/18495-community-builder-208-released</link>
+			<guid>http://www.joomlapolis.com:80/news/18495-community-builder-208-released</guid>
+			<description><![CDATA[<p style="text-align: center;"><a href="http://www.joomlapolis.com:80/component/docman/doc_details/758-community-builder-208"><img src="http://www.joomlapolis.com:80/images/jpnewsletter/jpn201504/cb208_500.gif" alt="cb208 500" width="500" height="181" /></a></p>
+<p style="text-align: center;">The Next Generation Community Builder 2.0.8 is here<br />and it's <a href="http://www.joomlapolis.com:80/component/docman/doc_details/758-community-builder-208">free to download</a>.<br />-----</p>
+<p><strong>Community Builder 2.0.8</strong> is here and fixes 19 issues (detailed list in discussion thread) also has 2 audio/video field feature improvements that:</p>
+<ul>
+<li>make playback process now work much better (following that of <a href="http://www.joomlapolis.com:80/index.php?option=com_content&amp;view=article&amp;id=18487:new-cb-gallery-supports-photos-files-videos-and-music&amp;catid=6:news&amp;Itemid=19">CB Gallery</a>) and</li>
+<li>lets you style the fields with percent width/height support</li>
+</ul>
+<p>Upgrading to Community Builder 2.0.8 can be done using the Joomla Extensions Update functionality or by simply downloading the CB 2.0.8 package and installing over your existing CB 2.0+ environment. If you are upgrading from CB 1.9.1, you should first take a look at video #30: <a class="pl-video-title-link yt-uix-tile-link yt-uix-sessionlink  spf-link " dir="ltr" href="https://www.youtube.com/watch?v=AtMsAhScimg&amp;list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX&amp;index=30" target="_blank" data-sessionlink="ei=BaSGVP6CDufmiwaLt4HYCA&amp;feature=plpp_video">CB 2.0 Tutorials - 30 - Upgrading from CB 1.9.1 to CB 2.0 - Expectations and first steps</a>, our <a href="http://www.joomlapolis.com:80/documentation/community-builder/getting-started">Getting started</a> articles and of course the <a href="http://www.joomlapolis.com:80/index.php?option=com_content&amp;view=article&amp;id=18492:cb-primer-book-designed-to-help-you-learn&amp;catid=6:news&amp;Itemid=19">CB Primer Book</a>.</p>
+<p>With the release of CB 2.0.8, we are now focusing on:</p>
+<ul>
+<li>releasing <a href="http://www.joomlapolis.com:80/forum/6-news-and-publicity/229508-cb-connect-700-beta-1-released">CB Connect 7.0.0 beta 1</a> (already released)</li>
+<li>releasing the new <a href="http://www.joomlapolis.com:80/index.php?option=com_content&amp;view=article&amp;id=18493:cb-activity-30-preview&amp;catid=6:news&amp;Itemid=19">CB Activity 3.0 RC1</a> (for Professional members) in the upcoming days</li>
+</ul>
+<p><a href="http://www.joomlapolis.com:80/forum/6-news-and-publicity/229515-community-builder-208-released">Discuss the Community Builder 2.0.8 release on our forums</a>.</p>]]></description>
+			<author>nant@joomlapolis.com (Nick A.)</author>
+			<category>News</category>
+			<pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>CB Activity 3.0 Preview</title>
+			<link>http://www.joomlapolis.com:80/news/18493-cb-activity-30-preview</link>
+			<guid>http://www.joomlapolis.com:80/news/18493-cb-activity-30-preview</guid>
+			<description><![CDATA[<p><a href="https://youtu.be/K2LSoGsOINA" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com:80/images/jpnewsletter/jpn201504/cbactivity30previewc_500.gif" alt="cbactivity30previewc 500" width="500" height="361" /></a></p>
+<p>The new CB Activty 3.0 is just around the corner with awesome totally responsive fantastic looking features!</p>
+<p>We are completely thrilled by the upcoming CB Activity 3.0. It is totally re-designed with pixel-perfect polishings and it includes best of bread activity streaming features. This brings a delightful User Experience (UX) to members and even surpasses features present on popular social networks!</p>
+<p>In 3 words, it's the activity streaming <strong>Of Your Dreams</strong>. At least it's the one of our dreams.</p>
+<p>Here are some of the main features in the soon to be released CB Activity 3.0 RC1:</p>
+<ul>
+<li>"What's on your mind?" posting</li>
+<li>Commenting everywhere</li>
+<li>Inline #hashtag support</li>
+<li>Inline emotions support (e.g., :smile:)</li>
+<li>Inline @username and @name type mentions</li>
+<li>Activity URLs automatically converted to clickable links</li>
+<li>10 built-in Actions (Feeling, Watching, Reading, ...) and you can add your own!</li>
+<li>62 built-in Emotions (smile, laughing, blush, ...) and you can add your own!</li>
+<li>Configurable limits everywhere (number of chars per post, comment, ...)</li>
+</ul>
+<p>Every profile gets it's own Activity tab, but you can also create Joomla menu items to your activity streams!</p>
+<p>And of course everything is responsive and lightning fast!</p>
+<p>CB Activity 3.0 will be available for Professional and Developer members. A first Release Candidate (RC) is scheduled to take place soon after CB 2.0.8 is released (prerequisite for CB Activity 3.0).</p>
+<p>In the meantime you can take a quick look at our <a href="https://youtu.be/K2LSoGsOINA" target="_blank">CB Activity preview tutorial</a> and join the discussion below.</p>
+<p><a href="http://www.joomlapolis.com:80/forum/6-news-and-publicity/229413-cb-activity-30-preview">Discuss this on our forums</a>.</p>]]></description>
+			<author>nant@joomlapolis.com (Nick A.)</author>
+			<category>News</category>
+			<pubDate>Tue, 21 Apr 2015 10:34:23 +0000</pubDate>
+		</item>
+		<item>
+			<title>CB Primer Book designed to help you learn</title>
+			<link>http://www.joomlapolis.com:80/news/18492-cb-primer-book-designed-to-help-you-learn</link>
+			<guid>http://www.joomlapolis.com:80/news/18492-cb-primer-book-designed-to-help-you-learn</guid>
+			<description><![CDATA[<table style="width: 540px; height: 428px;" border="0" cellpadding="10">
+<tbody>
+<tr>
+<td><a href="http://www.joomlapolis.com:80/index.php?option=com_docman&amp;task=doc_details&amp;gid=753"><img src="http://www.joomlapolis.com:80/images/jpnewsletter/jpn201503/cbprimerbook.gif" alt="CB 2.0 Primer Book" width="278" height="392" /></a></td>
+<td valign="middle">
+<p>The new <strong>Community Builder 2.0 Primer Book</strong> is here and now free for everyone to <a href="http://www.joomlapolis.com:80/index.php?option=com_docman&amp;task=doc_details&amp;gid=753">download</a>.</p>
+<p>This new resource is designed to be both <strong>educational and fun</strong> to follow. Rather than creating a reference guide or user manual that replicates built-in help screens and tooltip messages, the CB Primer takes a different approach.</p>
+<p>It motivates you and gives you examples that trigger your imagination and spark your internal learning process.</p>
+<p>This <strong>fun to read</strong> book is an <strong>excellent companion</strong> to the<strong> 50+ video tutorials</strong> on our <a href="https://www.youtube.com/Joomlapolis" target="_blank">Joomlapolis Youtube channel</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 style="margin-top: 0.54cm; margin-bottom: 0.32cm; border-width: medium medium 1pt; border-style: none none solid; border-color: -moz-use-text-color -moz-use-text-color #18a303; padding: 0cm; page-break-after: avoid;"><span style="color: #18a303;"><strong>What’s in this book?</strong></span></h3>
+<p>This book introduces some of the main features of Community Builder, the social networking platform for Joomla.</p>
+<p>The layout of this book is somewhat unconventional as it follows a quick-start approach showing you things you can do out-of-the-box with little or no extra configuration and then gradually introduces extra configuration possibilities as they are needed. Sometimes the images included to help explain one topic also introduce elements and features that will make the reader think and understand future possibilities. This approach hopefully makes reading more enjoyable and easier to follow.</p>
+<ul>
+<li>Expectations, installation and first steps (&nbsp;Chapter 1 and Chapter 2&nbsp;)</li>
+<li>Working with fields and a closer look at image fields (&nbsp;Chapter 3 and Chapter 4&nbsp;)</li>
+<li>Creating user lists and searching for users (&nbsp;Chapter 5&nbsp;)</li>
+<li>Working with tabs, display types and profile positions (&nbsp;Chapter 6&nbsp;)</li>
+<li>Exploring operations with user management (&nbsp;Chapter 7&nbsp;)</li>
+<li>Plugin concepts and built-in apps (&nbsp;Chapter 8&nbsp;)</li>
+<li>Configuring and exploring user connections (&nbsp;Chapter 9&nbsp;)</li>
+<li>Language translation concepts (&nbsp;Chapter 10&nbsp;)</li>
+<li>More configurations and implication tips (&nbsp;Chapter 11&nbsp;)</li>
+<li>Conclusions and more resources (&nbsp;Chapter 12 and Appendix A&nbsp;)</li>
+</ul>
+<p><a href="http://www.joomlapolis.com:80/index.php?option=com_docman&amp;task=doc_details&amp;gid=753">Download your copy</a> and let the fun learning begin!</p>
+<p><a href="http://www.joomlapolis.com:80/forum/6-news-and-publicity/228949-cb-primer-book-designed-to-help-you-learn">Discuss the new CB Primer Book on our forums</a>.</p>]]></description>
+			<author>nant@joomlapolis.com (Nick A.)</author>
+			<category>News</category>
+			<pubDate>Mon, 16 Mar 2015 10:52:45 +0000</pubDate>
+		</item>
+		<item>
+			<title>CBSubs GPL 4.0 RC2 released</title>
+			<link>http://www.joomlapolis.com:80/news/18491-cbsubs-gpl-40-rc2-released</link>
+			<guid>http://www.joomlapolis.com:80/news/18491-cbsubs-gpl-40-rc2-released</guid>
+			<description><![CDATA[<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com:80/images/jpnewsletter/jpn201503/cbsubs40rc2.gif" alt="cbsubs40rc2" width="500" height="182" /></p>
+<p style="text-align: center;">CBSubs GPL 4.0 RC2 (fully CB 2.0+ compatible) is here<br />active subscribers can <a href="http://www.joomlapolis.com:80/index.php?option=com_docman&amp;task=doc_details&amp;gid=747">download</a> from the CBSubs GPL download area</p>
+<p><a href="http://www.joomlapolis.com:80/index.php?option=com_content&amp;view=article&amp;id=40&amp;Itemid=4">CBSubs GPL</a> 4.0 RC2 addresses 34 identified issues (detailed list in discussion thread) and also has 5 new features since the RC1 release:</p>
+<ul>
+<li>Geographic IP support to identify buyer's country and use it as invoice default (also stored in order basked for <a href="http://www.joomlapolis.com:80/index.php?option=com_content&amp;view=article&amp;id=18480:call-to-action-new-eu-vat-law-could-kill-e-commerce-and-affects-everyone&amp;catid=6:news&amp;Itemid=19">EU-VAT</a> compliance)</li>
+<li>Promotion names no longer need to be unique</li>
+<li>Different bonus times now supported for reactivation of calendar based subscriptions</li>
+<li>Improved denied usage messages for expired promotions</li>
+<li>Depreciated DOCman integration (no longer needed since it now supports Joomla ACl groups)</li>
+</ul>
+<p>The RC2 release is the last RC release planed before CBSubs 4.0 stable and requires CB 2.0.7 (or better). It can be installed over your existing 4.0 RC1 (or 3.0) installation (all settings and data will be preserved).</p>
+<p><a href="http://www.joomlapolis.com:80/forum/6-news-and-publicity/228869-cbsubs-gpl-40-rc2-released">Discuss this on our fourms</a>.</p>]]></description>
+			<author>nant@joomlapolis.com (Nick A.)</author>
+			<category>News</category>
+			<pubDate>Tue, 10 Mar 2015 09:41:53 +0000</pubDate>
+		</item>
+		<item>
+			<title>Celebrating 10 Years of Community Building</title>
+			<link>http://www.joomlapolis.com:80/news/18490-celebrating-10-years-of-community-building</link>
+			<guid>http://www.joomlapolis.com:80/news/18490-celebrating-10-years-of-community-building</guid>
+			<description><![CDATA[<p><a href="http://www.joomlapolis.com:80/index.php?option=com_content&amp;view=article&amp;id=18489&amp;Itemid=204"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com:80/images/celebration10/cb10year_500.gif" alt="cb10year 500" width="500" height="107" /></a></p>
+<p style="text-align: center;"><strong>Community Builder is celebrating its 10th birthday!</strong></p>
+<p>We are very proud of providing for 10 years what is now the<strong> best open source social networking solution</strong> for Joomla!</p>
+<p>A big <strong>THANK YOU</strong> goes to each and every one of our:</p>
+<ul>
+<li>528000 (and growing fast) Joomlapolitans</li>
+<li>millions of Community Builder website owners</li>
+<li>40 language teams and their members on Transifex and</li>
+<li>paid supporters!</li>
+</ul>
+<p>Without your help we would have never reached this <strong>awesome milestone</strong>!</p>
+<p>To celebrate this fantastic birthday for the entire month of March we have some great free gifts for everyone and also awesome discounts for our paid membership. Just click on our celebration banner to learn more!</p>
+<p>Please join us by&nbsp;#10yearsCB #joomla tweeting or social network sharing your personal wishes for Community Builder's 10th birthday!</p>
+<p><a href="http://www.joomlapolis.com:80/forum/6-news-and-publicity/228794-celebrating-10-years-of-community-building">You can also drop your birthday wishes on our discussion forum</a>.</p>]]></description>
+			<author>nant@joomlapolis.com (Nick A.)</author>
+			<category>News</category>
+			<pubDate>Wed, 04 Mar 2015 12:43:55 +0000</pubDate>
+		</item>
+		<item>
+			<title>Do more with Joomla 3.4 and Community Builder 2.0.7</title>
+			<link>http://www.joomlapolis.com:80/news/18488-do-more-with-joomla-34-and-community-builder-207</link>
+			<guid>http://www.joomlapolis.com:80/news/18488-do-more-with-joomla-34-and-community-builder-207</guid>
+			<description><![CDATA[<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com:80/images/jpnewsletter/jpn201502/j34-infographic-500.gif" alt="Joomla 3.4 released" width="500" height="375" /></p>
+<p style="text-align: center;"><a href="http://www.joomla.org/announcements/release-news/5586-joomla-3-4-is-here.html" target="_blank">Joomla 3.4</a> and <a href="http://www.joomlapolis.com:80/index.php?option=com_docman&amp;task=doc_details&amp;gid=741">Community Builder 2.0.7</a> are ready to help you<br />do more with your websites.</p>
+<p>The <strong>Joomla 3.4</strong> release introduces the following key new features:</p>
+<ul>
+<li><strong>easier front end editing</strong> for your modules</li>
+<li>a <strong>lighter distribution</strong> with the decoupling of weblinks</li>
+<li>composer integration to <strong>help developers be more productive</strong></li>
+<li><strong>improved spam protection</strong> with Google new reCaptcha (already supported in CB AntiSpam)</li>
+<li><strong>security improvements</strong> by implementing UploadShield code which can detect most malicious uploads by examining their filenames and file contents.</li>
+</ul>
+<p><strong>Joomla 3.4</strong> is a minor version that preserves compatibility and should in most cases be a simple and easy upgrade.</p>
+<p>To upgrade from Joomla 2.5/3.3 to Joomla 3.4 you can use the built-in Joomla update functionality but first make sure that all your installed extensions and templates are compatible. If you are updating form Joomla 2.5 then our <a href="http://www.joomlapolis.com:80/index.php?option=com_content&amp;view=article&amp;id=18478:migrating-from-joomla-25-to-joomla-33&amp;catid=95:installation&amp;Itemid=129">Migrating from Joomla 2.5 to Joomla 3</a> tutorial is a great resource for your upgrade project. Updating from Joomla 3.3 to 3.4 is simple and easy - just like upgrading from any Joomla 3.3.x release to 3.3.x+1. As always, start the process by taking a - just-in-case - full backup</p>
+<p><strong>Community Builder 2.0.7</strong> addresses 6 minor identified bugs (see discusson on forum for details), of which one fixes the installation of CB as an upgrade on the new Joomla 3.4 release, which introduced an additional check on the package.</p>
+<p>To upgrade to CB 2.0.7 all you need to do is use the Joomla Extensions Update functionality or simply download the CB 2.0.7 package and install. You can do this before or after your Joomla 3.4 upgrade.</p>
+<p><a href="http://www.joomlapolis.com:80/forum/6-news-and-publicity/228702-do-more-with-joomla-34-and-community-builder-207">Discuss this article on our forums</a>.</p>]]></description>
+			<author>nant@joomlapolis.com (Nick A.)</author>
+			<category>News</category>
+			<pubDate>Thu, 26 Feb 2015 08:21:06 +0000</pubDate>
+		</item>
+		<item>
+			<title>New CB Gallery supports photos, files, videos and music</title>
+			<link>http://www.joomlapolis.com:80/news/18487-new-cb-gallery-supports-photos-files-videos-and-music</link>
+			<guid>http://www.joomlapolis.com:80/news/18487-new-cb-gallery-supports-photos-files-videos-and-music</guid>
+			<description><![CDATA[<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com:80/images/jpnewsletter/jpn201502/photo-gallery.gif" alt="photo-gallery" width="500" height="426" /></p>
+<p style="text-align: center;">Paid members can <a href="http://www.joomlapolis.com:80/index.php?option=com_docman&amp;task=doc_details&amp;gid=740">download CB Gallery 1.0.2</a> from the Advanced Download area</p>
+<p>The new <strong>CB Gallery</strong> add-on for CB 2.0.6+ is here and it supports <strong>photos</strong>, <strong>files</strong>, <strong>videos</strong> and <strong>music</strong> media items.</p>
+<p>Your users will just love the new look and feel as they will be able to organize all their multimedia content on the 4 new user profile tabs (Photos, Files, Videos, Music). Each tab can have unlimited albums and users can easily organize their content giving them distinctive titles and descriptions. Plus everything works great on all viewing devices (desktop, tablets and mobile phones).</p>
+<p>Here is a list of key features available:</p>
+<ul>
+<li>Everything is mobile ready</li>
+<li>4 tabs (Photos, FIles, Videos, Music)</li>
+<li>each tab can have unlimited albums (folders)</li>
+<li>each album can have unlimited items</li>
+<li>folders and items are editable with gear icon popup menu</li>
+<li>folder names and item names are searchable</li>
+<li>photos are clickable to reveal full size image in popup lightbox</li>
+<li>file upload sizes can be configured for all items and allowed extension types can be configured for file items</li>
+<li>limits can be imposed on number of folders and number of media items</li>
+<li>moderation and captcha can be enabled for folder creation and media items</li>
+<li>item linking can be enabled separately for each media type (only Youtube linking currently supported for video items)</li>
+<li>backend folder and item management support lets your administrators add new folders or upload new media for users or edit existing items</li>
+</ul>
+<p>&nbsp;</p>
+<h3>Video Folder</h3>
+<p>Here is a sample screenshot of what your users can expect from a video folder album.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com:80/images/jpnewsletter/jpn201502/video-gallery.gif" alt="video-gallery" width="500" height="528" /></p>
+<p>&nbsp;</p>
+<h3>File Folder</h3>
+<p>A file folder album lets your users upload their files and share them with other users.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com:80/images/jpnewsletter/jpn201502/file-gallery.gif" alt="file-gallery" width="500" height="310" /></p>
+<h3>Music Folders</h3>
+<p>Your users will be able to create unlimited music albums on their profile pages.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com:80/images/jpnewsletter/jpn201502/music-folders.gif" alt="music-folders" width="500" height="228" /></p>
+<p>&nbsp;</p>
+<p>This new CB Gallery add-on replaces the previous CB Profile Gallery plugin and gives your users so much more.</p>
+<p>When you install CB Gallery for the first time on your CB 2.0.6+ website it will automatically detect and migrate all CB Profile Gallery items that finds. This way your user uploads will remain intact in this new super-clean environment.</p>
+<p><a href="http://www.joomlapolis.com:80/forum/6-news-and-publicity/228665-new-cb-gallery-supports-photos-files-videos-and-music">Discuss CB Gallery on our forums</a>.</p>]]></description>
+			<author>nant@joomlapolis.com (Nick A.)</author>
+			<category>News</category>
+			<pubDate>Tue, 24 Feb 2015 11:33:34 +0000</pubDate>
+		</item>
+		<item>
+			<title>Community Builder 2.0.6 Released</title>
+			<link>http://www.joomlapolis.com:80/news/18486-community-builder-206-released</link>
+			<guid>http://www.joomlapolis.com:80/news/18486-community-builder-206-released</guid>
+			<description><![CDATA[<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com:80/images/jpnewsletter/jpn201502/cb206release_500.gif" alt="cb206release 500" width="500" height="182" /></p>
+<p style="text-align: center;">The Next Generation Community Builder 2.0.6 is here<br />and it's <a href="http://www.joomlapolis.com:80/index.php?option=com_docman&amp;task=doc_details&amp;gid=734">free to download</a>.<br />-----</p>
+<p><strong>Community Builder 2.0.6</strong> is here and fixes 26 issues (detailed list in discussion thread) also introduces following new features:</p>
+<ul>
+<li>ability to configure Joomla ACL permissions for Community Builder <strong>→</strong> Tools access</li>
+<li>upload fields (file, image, video, audio) now also have browser-side validation in Javascript before even uploading the file</li>
+<li>timezone offset is now controlled by new field-specific parameter</li>
+<li>updated to jquery 1.11.2, bootstrap 3.3.2 and fontawesome 4.3.0</li>
+</ul>
+<p>Upgrading to Community Builder 2.0.6 can be done using the Joomla Extensions Update functionality or by simply downloading the CB 2.0.6 package and installing over your existing CB 2.0+ environment. If you are upgrading from CB 1.9.1, you should first take a look at video #30: <a class="pl-video-title-link yt-uix-tile-link yt-uix-sessionlink  spf-link " dir="ltr" href="https://www.youtube.com/watch?v=AtMsAhScimg&amp;list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX&amp;index=30" target="_blank" data-sessionlink="ei=BaSGVP6CDufmiwaLt4HYCA&amp;feature=plpp_video">CB 2.0 Tutorials - 30 - Upgrading from CB 1.9.1 to CB 2.0 - Expectations and first steps</a>&nbsp; and also our <a href="http://www.joomlapolis.com:80/index.php?option=com_content&amp;view=category&amp;id=129&amp;Itemid=197">Getting started</a> articles.</p>
+<p><a href="http://www.joomlapolis.com:80/forum/6-news-and-publicity/228578-community-builder-206-released">Discuss the Community Builder 2.0.6 release on our forums</a>.</p>]]></description>
+			<author>nant@joomlapolis.com (Nick A.)</author>
+			<category>News</category>
+			<pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+		</item>
+	</channel>
+</rss>
