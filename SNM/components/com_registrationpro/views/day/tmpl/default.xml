@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="MENUES_DAY_VIEW_TITLE" option="MENUES_DAY_VIEW_OPTION">		
+		<message>
+			<![CDATA[MENUES_DAY_VIEW_MSG]]>
+		</message>
+	</layout>
+	
+	<fields name="request">
+		<fieldset name="request">
+			<field name="days" type="text" size="4" default="0" label="Days" description="The numbers of days which should added to todays date. 0 for today." />
+		</fieldset>
+	</fields>
+	
+</metadata>

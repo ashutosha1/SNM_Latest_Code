@@ -1,0 +1,511 @@
+.regpro_calendar { 
+	background-color:#d2d2d2;
+	/*border:#666666;
+	border: 1px solid #cccccc;*/
+    background: #ffffff;
+    padding: 2px;
+    color:#000000;
+	vertical-align:top;
+}
+
+.regpro_calendar_table {
+	border: 0.5px #d2d2d2 solid;
+}
+.regpro_calendar_table td{
+	/*border: 1px #d2d2d2 solid;*/
+	border: 1px #333333 solid;
+}
+
+.regpro_calendarWeekDayHeader { 
+	font-weight: bolder;
+	/*background-color: #d2d2d2;	*/
+	background-color:#333333;
+	color:#FFFFFF;
+	text-align:center;
+	vertical-align:middle;
+	padding-top:3px;
+	padding-bottom:3px;	
+	border: 2px #333333 solid;
+} 
+.regpro_calendarMonthHeader{
+	background-color: #d2d2d2;
+	text-align:center;
+	vertical-align:middle;	
+	height:35px;	
+	background-color:#666666;
+}
+
+#regpro_calendarMonthHeader a:link{	
+	text-decoration:none;
+	/*font-size:12px;
+	font-weight:bold;*/	
+	color:#FFFFFF;
+	background-color:#333333;
+}
+
+#regpro_calendarMonthHeader a:hover{	
+	text-decoration:none;	
+	color:#FFFFFF;
+	background-color:#333333;
+	
+}
+
+.regpro_calendarToday { 
+	background-color: #efefef;
+	color:#FF0000;
+	width:60px;
+	height:60px;
+	padding-top:4px;
+	padding-left:4px;
+	vertical-align:top;
+	text-align:left;
+	font-size:12px;
+	font-style:normal;
+	font-weight:bolder;
+	/*text-decoration:blink;*/
+}
+.regpro_calendarDay { 
+	background-color: #efefef;
+	width:60px;
+	height:60px;
+	padding-top:4px;
+	padding-left:4px;
+	vertical-align:top;
+	text-align:left;
+	font-size:12px;
+	font-style:normal;
+}
+
+/*.regprowhite a:link, a:hover{ 
+	color:#FFFFFF;
+}
+
+.regproblack a:link, a:hover{ 
+	color:#FFFFFF;
+}*/
+
+.regpro_calenderday_highlight {
+	background-color: #FFFFFF;
+	width:60px;
+	height:60px;
+	padding-top:4px;
+	padding-left:4px;
+	vertical-align:top;
+	text-align:left;
+	font-size:12px;
+	font-style:normal;
+	font-weight:bolder;
+}
+
+/* month and year classes */
+.regpro_calendar_months{
+	BACKGROUND-COLOR: #FFFFFF;
+	COLOR: #000000;
+	BORDER-RIGHT: #a6a6a6 1px solid; 
+	BORDER-TOP: #a6a6a6 1px solid;
+	BORDER-LEFT: #a6a6a6 1px solid; 
+	BORDER-BOTTOM: #a6a6a6 1px solid;
+	PADDING-RIGHT: 0px; 	 
+	PADDING-LEFT: 0px; 
+	FONT-SIZE: 10pt; 
+	PADDING-BOTTOM: 1px;		
+	PADDING-TOP: 1px;
+	width:100px;		
+}
+/*.regpro_calendar_months:hover{
+	background:#FFFFFF;
+}*/
+.regpro_calendar_years{	
+	BACKGROUND-COLOR: #FFFFFF;
+	COLOR: #000000;
+	BORDER-RIGHT: #a6a6a6 1px solid; 
+	BORDER-TOP: #a6a6a6 1px solid;
+	BORDER-LEFT: #a6a6a6 1px solid; 
+	BORDER-BOTTOM: #a6a6a6 1px solid;
+	PADDING-RIGHT: 0px; 	 
+	PADDING-LEFT: 0px; 
+	FONT-SIZE: 10pt; 
+	PADDING-BOTTOM: 1px;		
+	PADDING-TOP: 1px;
+	width:60px;	
+}
+/*.regpro_calendar_years:hover{
+	background:#FFFFFF;
+}*/
+
+.regpro_calendar_categories{	
+	BACKGROUND-COLOR: #FFFFFF;
+	COLOR: #000000;
+	BORDER-RIGHT: #a6a6a6 1px solid; 
+	BORDER-TOP: #a6a6a6 1px solid;
+	BORDER-LEFT: #a6a6a6 1px solid; 
+	BORDER-BOTTOM: #a6a6a6 1px solid;
+	PADDING-RIGHT: 0px; 	 
+	PADDING-LEFT: 0px; 
+	FONT-SIZE: 10pt; 
+	PADDING-BOTTOM: 1px;		
+	PADDING-TOP: 1px;	
+}
+
+.regpro_calendar_categories_span{	
+	height:22px;
+	width:2px;
+	text-align:left;
+	border: 0px #c9d8fc;	
+	vertical-align:middle;
+	margin: 0;
+	font-size:14px;
+}
+
+.regpro_calendar_premonth { 
+	vertical-align:middle;
+	color:#FFFFFF;
+	text-align:left;
+	padding-left: 4px;
+	/*font-weight:bold;*/
+	/*background-color:#333333;*/
+}
+
+.regpro_calendar_premonth img{ 
+	vertical-align:middle;
+	/*margin-left: 4px;
+	margin-right: 4px;*/
+}
+
+.regpro_calendar_nextmonth { 
+	vertical-align:middle;
+	color:#FFFFFF;
+	text-align:right;
+	padding-right: 4px;
+	/*font-weight:bold;
+	background-color:#333333;*/
+}
+
+.regpro_calendar_nextmonth img{ 
+	vertical-align:middle;
+	/*margin-left: 4px;
+	margin-right: 4px;*/
+}
+
+.regpro_calendar_legends {
+ margin: 2px 2px 2px 2px;
+}
+
+.regpro_calendar_legends .label {
+ margin: 2px 2px 2px 2px;
+}
+
+/* End Month/Years */
+
+.regpro_calendar_legends_title {
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
+
+
+/* Tooltip css classes */
+.custom-tip {
+	Z-INDEX: 13000; WIDTH: 250px; COLOR: #000
+}
+.custom-title {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #a3cef6; PADDING-BOTTOM: 4px; MARGIN: 0px; COLOR: #3e4f14; PADDING-TOP: 4px; BORDER-BOTTOM: #135cae 1px solid
+}
+.custom-text {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 11px; BACKGROUND: #cee9fb; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.tooptip_detail {
+	text-align:left;
+	vertical-align:top;
+}
+
+/* added on 13th Oct 2013*/
+.tooltip {
+	position: absolute;
+	z-index: 1030;
+	display: block;
+	visibility: visible;
+	font-size: 11px;
+	line-height: 1.4;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.tooltip.in {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+.tooltip.top {
+	margin-top: -3px;
+	padding: 5px 0;
+}
+.tooltip.right {
+	margin-left: 3px;
+	padding: 0 5px;
+}
+.tooltip.bottom {
+	margin-top: 3px;
+	padding: 5px 0;
+}
+.tooltip.left {
+	margin-left: -3px;
+	padding: 0 5px;
+}
+.tooltip-inner {
+	max-width: 200px;
+	padding: 8px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background-color: #000;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.tooltip-arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+}
+.tooltip.top .tooltip-arrow {
+	bottom: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px 5px 0;
+	border-top-color: #000;
+}
+.tooltip.right .tooltip-arrow {
+	top: 50%;
+	left: 0;
+	margin-top: -5px;
+	border-width: 5px 5px 5px 0;
+	border-right-color: #000;
+}
+.tooltip.left .tooltip-arrow {
+	top: 50%;
+	right: 0;
+	margin-top: -5px;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #000;
+}
+.tooltip.bottom .tooltip-arrow {
+	top: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 0 5px 5px;
+	border-bottom-color: #000;
+}
+
+/* End Tooltip */
+
+
+/***************** rounded calendar corners with border **********************/
+.regpro-table-bordered {
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+  *border-collapse: collapse;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.regpro-table-bordered th,
+.regpro-table-bordered td {
+  border-left: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+  border-right:1px solid #dddddd;
+}
+
+.regpro-table-bordered caption + thead tr:first-child th,
+.regpro-table-bordered caption + tbody tr:first-child th,
+.regpro-table-bordered caption + tbody tr:first-child td,
+.regpro-table-bordered colgroup + thead tr:first-child th,
+.regpro-table-bordered colgroup + tbody tr:first-child th,
+.regpro-table-bordered colgroup + tbody tr:first-child td,
+.regpro-table-bordered thead:first-child tr:first-child th,
+.regpro-table-bordered tbody:first-child tr:first-child th,
+.regpro-table-bordered tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.regpro-table-bordered thead:first-child tr:first-child > th:first-child,
+.regpro-table-bordered tbody:first-child tr:first-child > td:first-child,
+.regpro-table-bordered tbody:first-child tr:first-child > th:first-child {
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+.regpro-table-bordered thead:first-child tr:first-child > th:last-child,
+.regpro-table-bordered tbody:first-child tr:first-child > td:last-child,
+.regpro-table-bordered tbody:first-child tr:first-child > th:last-child {
+  -webkit-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+}
+
+.regpro-table-bordered thead:last-child tr:last-child > th:first-child,
+.regpro-table-bordered tbody:last-child tr:last-child > td:first-child,
+.regpro-table-bordered tbody:last-child tr:last-child > th:first-child,
+.regpro-table-bordered tfoot:last-child tr:last-child > td:first-child,
+.regpro-table-bordered tfoot:last-child tr:last-child > th:first-child {
+  -webkit-border-bottom-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+}
+
+.regpro-table-bordered thead:last-child tr:last-child > th:last-child,
+.regpro-table-bordered tbody:last-child tr:last-child > td:last-child,
+.regpro-table-bordered tbody:last-child tr:last-child > th:last-child,
+.regpro-table-bordered tfoot:last-child tr:last-child > td:last-child,
+.regpro-table-bordered tfoot:last-child tr:last-child > th:last-child {
+  -webkit-border-bottom-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+}
+
+.regpro-table-bordered tfoot + tbody:last-child tr:last-child td:first-child {
+  -webkit-border-bottom-left-radius: 0;
+          border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+}
+
+.regpro-table-bordered tfoot + tbody:last-child tr:last-child td:last-child {
+  -webkit-border-bottom-right-radius: 0;
+          border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+}
+
+.regpro-table-bordered caption + thead tr:first-child th:first-child,
+.regpro-table-bordered caption + tbody tr:first-child td:first-child,
+.regpro-table-bordered colgroup + thead tr:first-child th:first-child,
+.regpro-table-bordered colgroup + tbody tr:first-child td:first-child {
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+.regpro-table-bordered caption + thead tr:first-child th:last-child,
+.regpro-table-bordered caption + tbody tr:first-child td:last-child,
+.regpro-table-bordered colgroup + thead tr:first-child th:last-child,
+.regpro-table-bordered colgroup + tbody tr:first-child td:last-child {
+  -webkit-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+}
+
+/***************** rounded calendar corners without border **********************/
+.regpro-table-noborder {
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+  *border-collapse: collapse;
+ /* border-left: 1;*/ 
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.regpro-table-noborder th,
+.regpro-table-noborder td {
+  /*border-left: 1px solid #dddddd;*/
+}
+
+.regpro-table-noborder caption + thead tr:first-child th,
+.regpro-table-noborder caption + tbody tr:first-child th,
+.regpro-table-noborder caption + tbody tr:first-child td,
+.regpro-table-noborder colgroup + thead tr:first-child th,
+.regpro-table-noborder colgroup + tbody tr:first-child th,
+.regpro-table-noborder colgroup + tbody tr:first-child td,
+.regpro-table-noborder thead:first-child tr:first-child th,
+.regpro-table-noborder tbody:first-child tr:first-child th,
+.regpro-table-noborder tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.regpro-table-noborder thead:first-child tr:first-child > th:first-child,
+.regpro-table-noborder tbody:first-child tr:first-child > td:first-child,
+.regpro-table-noborder tbody:first-child tr:first-child > th:first-child {
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+.regpro-table-noborder thead:first-child tr:first-child > th:last-child,
+.regpro-table-noborder tbody:first-child tr:first-child > td:last-child,
+.regpro-table-noborder tbody:first-child tr:first-child > th:last-child {
+  -webkit-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+}
+
+.regpro-table-noborder thead:last-child tr:last-child > th:first-child,
+.regpro-table-noborder tbody:last-child tr:last-child > td:first-child,
+.regpro-table-noborder tbody:last-child tr:last-child > th:first-child,
+.regpro-table-noborder tfoot:last-child tr:last-child > td:first-child,
+.regpro-table-noborder tfoot:last-child tr:last-child > th:first-child {
+  -webkit-border-bottom-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+}
+
+.regpro-table-noborder thead:last-child tr:last-child > th:last-child,
+.regpro-table-noborder tbody:last-child tr:last-child > td:last-child,
+.regpro-table-noborder tbody:last-child tr:last-child > th:last-child,
+.regpro-table-noborder tfoot:last-child tr:last-child > td:last-child,
+.regpro-table-noborder tfoot:last-child tr:last-child > th:last-child {
+  -webkit-border-bottom-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+}
+
+.regpro-table-noborder tfoot + tbody:last-child tr:last-child td:first-child {
+  -webkit-border-bottom-left-radius: 0;
+          border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+}
+
+.regpro-table-noborder tfoot + tbody:last-child tr:last-child td:last-child {
+  -webkit-border-bottom-right-radius: 0;
+          border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+}
+
+.regpro-table-noborder caption + thead tr:first-child th:first-child,
+.regpro-table-noborder caption + tbody tr:first-child td:first-child,
+.regpro-table-noborder colgroup + thead tr:first-child th:first-child,
+.regpro-table-noborder colgroup + tbody tr:first-child td:first-child {
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+.regpro-table-noborder caption + thead tr:first-child th:last-child,
+.regpro-table-noborder caption + tbody tr:first-child td:last-child,
+.regpro-table-noborder colgroup + thead tr:first-child th:last-child,
+.regpro-table-noborder colgroup + tbody tr:first-child td:last-child {
+  -webkit-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+}
+
+
+
+
+
+/************ override Bootstrap css classes  ************/
+
+.label, .badge {
+    background-color: #999999;
+    color: #FFFFFF;
+    display: inline-block;
+	font-weight:normal;
+    font-size: 11.844px;
+    line-height: 14px;
+    padding: 2px 4px;
+/*    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);*/
+	text-shadow:none;
+    vertical-align: baseline;
+	white-space:normal;
+}

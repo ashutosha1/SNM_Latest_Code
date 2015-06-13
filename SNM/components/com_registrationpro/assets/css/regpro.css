@@ -1,0 +1,2163 @@
+/* CSS Document */
+/******** Class use to make border on every sections ********/
+.regpro_error {
+  background-color: #FFE;
+  border: 1px solid #CC9;
+  color:#C00;
+  text-transform:uppercase;
+  padding: 4px;
+  text-align:center;
+  vertical-align:middle;
+  font-weight:bold;
+}
+
+.regpro_outline {
+  border: 0px solid #cccccc;
+  background: #ffffff;
+  padding: 2px;
+  color:#000000;
+}
+
+div#regpro_outline a:link, div#regpro_outline a:visited  {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+div#regpro_outline a:hover {
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+.regpro_vtop {
+	vertical-align:top;
+}
+
+.regpro_vtop_aright {
+	vertical-align:top;
+	text-align:right;
+}
+
+.regpro_vtop_aleft {
+	vertical-align:top;
+	text-align:left;
+}
+
+.regpro_vtop_acenter {
+	vertical-align:top;
+	text-align:center;
+}
+
+.regpro_vmiddle_aright {
+	vertical-align:middle;
+	text-align:right;
+}
+
+.regpro_vmiddle_aleft {
+	vertical-align:middle;
+	text-align:left;
+}
+
+.regpro_vmiddle_acenter {
+	vertical-align:middle;
+	text-align:center;
+}
+
+.regpro_aleft{
+	text-align:left;
+}
+
+.regpro_aright{
+	text-align:right;
+}
+
+.regpro_acenter{
+	text-align:center;
+}
+
+.regpro_search_table{	
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+
+/* event discouint css */
+.regpro_event_discount {	
+	background: #FFFFCC;							
+}
+
+.regpro_cart_event_discount {	
+	background: #FFFFCC;
+	font-size:12px;
+	color:#FF0000;
+	text-transform:uppercase;						
+}
+
+/* registration form separator */
+.regpro_reg_form_separator {	
+	background: #FFFFCC;							
+}
+/* end */
+
+/* ajax loading css box */
+#ajaxmessagebox_frontend {
+	margin-bottom:10px;
+	width: auto;
+	padding: 4px;
+	border: solid 1px #DEDEDE;
+	background: #FFFFCC;
+	display: none;
+	text-align:center;								
+}
+
+/* content tables */
+.regpro_sectiontableheader {
+  background: #efefef;
+  color: #333;
+  font-weight: bold;
+  padding: 4px;
+  /*border-right: 1px solid #fff;*/
+}
+
+.regpro_sectiontableheader-regpro {
+  background: #efefef;
+  color: #333;
+  font-weight: bold;
+  padding: 4px;
+  border-right: 1px solid #fff;
+}
+
+/* content tables */
+
+.regpro_header-regpro {
+  /*background: #efefef;*/
+  color:#000000;
+  font-weight: bold;
+  padding: 4px;
+  border-right: 1px solid #fff;
+  vertical-align:middle;
+}
+
+#regpro-header-toolbar {
+	margin: 0px 0px 0px 0px;
+	margin-bottom: 4px;
+	padding-bottom: 4px;
+	border-bottom: 1px #dddddd solid;
+}
+
+#regpro-header-toolbar a {
+	margin: 4px 4px 4px 4px;
+}
+
+.regpro_footer-regpro {
+  background: #efefef;
+  color: #000000;
+  font-size:10px;
+  padding: 2px;
+  border-right: 1px solid #fff;
+}
+
+.regpro_blink{
+	text-decoration:blink;
+}
+
+.regpro_registration_allowed{
+	background: #efefef;
+	color:#333333;
+	font-size:15px;
+	font-weight:bold;
+}
+
+/* button classes */
+.regpro_button {	
+	/*font-size: 85%;*/
+	/*color:#333;*/
+}
+
+.regpro_button:hover, .button:focus {
+	/*color: #000000;*/
+}
+
+#regpro_form .regpro_button {	
+	/*font-size: 85%;
+	color:#333;*/
+}
+
+#regpro_form .regpro_button:hover, .button:focus {
+	/*color: #000000;*/
+}
+
+table.attendeelist {
+	width: 100%;
+	border-spacing: 1px;
+	background-color: #e7e7e7;
+	color: #666;
+}
+
+table.attendeelist {
+	width: 100%;
+	border-spacing: 1px;
+	background-color: #e7e7e7;
+	color: #666;
+}
+
+table.attendeelist td,
+table.attendeelist th { padding: 4px; }
+
+table.attendeelist thead th {
+	text-align: left;
+	background: #f0f0f0;
+	color: #666;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #fff;
+}
+
+table.attendeelist thead a:hover { text-decoration: none; }
+
+table.attendeelist thead th img { vertical-align: middle; }
+
+table.attendeelist tbody th { font-weight: bold; }
+
+table.attendeelist tbody tr			{ background-color: #fff;  text-align: left; }
+table.attendeelist tbody tr.row1 	{ background: #f9f9f9; border-top: 1px solid #fff; }
+
+table.attendeelist tbody tr.row0:hover td,
+table.attendeelist tbody tr.row1:hover td  { background-color: #ffd ; }
+
+table.attendeelist tbody tr td 	   { height: 25px; background: #fff; border: 1px solid #fff; }
+table.attendeelist tbody tr.row1 td { background: #f9f9f9; border-top: 1px solid #FFF; }
+
+table.attendeelist tfoot tr { text-align: center;  color: #333; }
+table.attendeelist tfoot td,
+table.attendeelist tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.attendeelist td.order 		{ text-align: center; white-space: nowrap; }
+table.attendeelist td.order span { float: left; display: block; width: 20px; text-align: center; }
+
+table.attendeelist .pagination { display:table; padding:0;  margin:0 auto;	 }
+
+.pagination div.limit {
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	margin: 0 10px;
+}
+
+/******* fields groups *************/
+.regpro_field_groups {
+  /*background: #efefef;*/
+  color: #333;
+  font-weight: bold;
+  padding: 4px;
+  text-align:right;
+  vertical-align:top;
+}
+
+/****** Event detail page heading *******/
+.regpro_detailsheading {
+ 	padding: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family:Helvetica ,Arial,sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	vertical-align: bottom;
+	color: #666;
+	text-align: left;
+	width: 100%;
+}
+
+/********* for event name above the tickets in cart ************/
+#regpro_eventoncart {
+	font-size:10px;
+	font-weight:bold;
+	background-color:#efefef;
+	text-align:center;
+}
+
+/********* register for multiple events button above text ************/
+.regpro_multipleeventtext {
+	text-align:center;
+	font-weight:bold;	
+}
+
+/********* Form Input elments class ********************/
+.regpro_inputbox {
+	BACKGROUND-COLOR: #FFFFFF;
+	COLOR: #000000;
+	BORDER-RIGHT: #a6a6a6 1px solid; 
+	BORDER-TOP: #a6a6a6 1px solid;
+	BORDER-LEFT: #a6a6a6 1px solid; 
+	BORDER-BOTTOM: #a6a6a6 1px solid;
+	PADDING-RIGHT: 0px; 	 
+	PADDING-LEFT: 0px; 
+	FONT-SIZE: 8pt; 
+	PADDING-BOTTOM: 1px;		
+	PADDING-TOP: 1px;	
+	/*FONT-FAMILY: Tahoma;*/		
+}
+
+.fValidator-form input, select{
+	BACKGROUND-COLOR: #FFFFFF;
+	COLOR: #000000;
+	BORDER-RIGHT: #a6a6a6 1px solid; 
+	BORDER-TOP: #a6a6a6 1px solid;
+	BORDER-LEFT: #a6a6a6 1px solid; 
+	BORDER-BOTTOM: #a6a6a6 1px solid;
+	PADDING-RIGHT: 0px; 	 
+	PADDING-LEFT: 0px; 
+	FONT-SIZE: 8pt; 
+	PADDING-BOTTOM: 1px;		
+	PADDING-TOP: 1px;
+}
+
+.fValidator-msg {
+	background-color: c00;
+	font-size: 9.5px;
+	color: #FF0000;
+	padding-right:23%;
+	float:right;
+	vertical-align:top;
+}
+
+
+/**************** Terms and conditions page *****************/
+.regpro_terms_head {
+	background-color:#efefef;
+	text-transform:capitalize;
+	font-weight:bold;
+}
+
+/**************** Mandatory fields notification before register button *****************/
+#mandatory_note {
+	width:100%;	
+	/*margin-top:4px;
+	margin-bottom:4px;*/
+	font-size:11px;
+	font-weight:bold;
+	color:#FF0000;
+	background-color:#FFE;
+	text-align:center;
+}
+
+
+/******************************************************* Form table styles *******************************************************************************/
+
+#adminForm { margin: 0px 0px 0px 0px; }
+
+#regproDetails { margin: 0px 0px 0px 0px; }
+
+table.admintable td.key.vtop { vertical-align: top; }
+
+table.adminform {
+	background-color: #f9f9f9;
+	border: solid 1px #d5d5d5;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 8px 0 10px 0;
+	margin-bottom: 15px;
+	width: 100%;
+}
+table.adminform.nospace { margin-bottom: 0; }
+table.adminform tr.row0 { background-color: #f9f9f9; }
+table.adminform tr.row1 { background-color: #eeeeee; }
+
+table.adminform th {
+	font-size: 11px;
+	padding: 6px 2px 4px 4px;
+	text-align: left;
+	height: 25px;
+	color: #000;
+	background-repeat: repeat;
+}
+table.adminform td { padding: 3px; text-align: left; }
+
+table.adminform td.filter{
+	text-align: left;
+}
+
+table.adminform td.helpMenu{
+	text-align: right;
+}
+
+
+fieldset.adminform { border: 1px solid #ccc; margin: 0 10px 10px 10px; }
+
+/***** *******/
+
+table.regproform {
+	background-color: #f9f9f9;
+	border: solid 1px #d5d5d5;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 8px 0 10px 0;
+	margin-bottom: 15px;
+	width: 100%;
+}
+table.regproform tr,td{
+	border:solid 0px;
+}
+table.regproform.nospace { margin-bottom: 0; }
+table.regproform tr.row0 { background-color: #f9f9f9; }
+table.regproform tr.row1 { background-color: #eeeeee; }
+
+table.regproform th {
+	font-size: 13px;
+	padding: 6px 2px 4px 4px;
+	text-align: left;
+	height: 25px;
+	color: #000;
+	background-repeat: repeat;
+}
+table.regproform td { padding: 3px; text-align: left; border:solid 0px;}
+
+table.regproform td.filter{
+	text-align: left;
+}
+
+table.regproform td.helpMenu{
+	text-align: right;
+}
+
+fieldset.regproform { border: 1px solid #ccc; margin: 0 10px 10px 10px;}
+
+/******************************************************* End Form table styles *******************************************************************************/
+
+/******************************************************* Listing Table styles *******************************************************************************/
+
+/** Main Listing Table styles **/
+
+table.eventlisting {
+	width: 100%;
+	border-spacing: 1px;
+	background-color: #e7e7e7;
+	color: #666;
+	color:#000000;
+}
+
+table.eventlisting td,
+table.eventlisting th { padding: 4px; }
+
+table.eventlisting thead th {
+	text-align: center;
+	background: #f0f0f0;
+	color: #666;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #fff;
+}
+
+table.eventlisting thead a:hover { text-decoration: none; }
+
+table.eventlisting thead th img { vertical-align: middle; }
+
+table.eventlisting tbody th { font-weight: bold; }
+
+table.eventlisting tbody tr			{ background-color: #fff;  text-align: left;}
+table.eventlisting tbody tr.row1 	{ background: #f9f9f9; border-top: 1px solid #fff; }
+
+table.eventlisting tbody tr.row0:hover td,
+table.eventlisting tbody tr.row1:hover td  { background-color: #ffd ; }
+
+table.eventlisting tbody tr td 	   { height: 25px; background: #fff; border: 1px solid #fff;}
+table.eventlisting tbody tr.row1 td { background: #f9f9f9; border-top: 1px solid #FFF; }
+
+table.eventlisting tfoot tr { text-align: center;  color: #333; }
+table.eventlisting tfoot td,
+table.eventlisting tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.eventlisting td.order 		{ text-align: center; white-space: nowrap; }
+table.eventlisting td.order span { float: left; display: block; width: 20px; text-align: center; }
+
+#events_tr_bottom {
+	width:100%;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#events_tr_bottom span {
+	padding: 4px;
+	vertical-align:middle;
+}
+
+#regpro .event_date_container {
+	float: left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #EAEAEA;
+	/*width: 65px;*/
+	padding: 3px;
+	/*display: block;*/
+	margin-right: 10px;
+	position: relative;	
+}
+
+#regpro .event_date_container .label {
+	background-color: #484b4b;
+	color:#FFFFFF;
+	font-size: 18px;
+	width: auto;
+	min-height: 18px;
+	padding-top: 8px;
+}
+
+#regpro .event_date_container .label span {	
+	font-size: 10px;	
+	padding: 4px;	
+}
+
+div#regpro .listing_event_title {
+	float:left;
+	display: inline;
+}
+
+div#regpro .listing_event_title a:link, div#regpro .listing_title a:visited {
+	font-size: 16px;
+	font-weight:bold;
+}
+
+div#regpro .smalllisting {
+	font-size: 0.85em;
+}
+
+div#regpro .sorting_box {
+	float: right;
+	margin-right: 8px;
+	vertical-align:top;
+	display: inline;
+	
+}
+
+/** End Main Listing Table styles **/
+
+/** common Table styles **/
+
+table.regprocommon {
+	width: 100%;
+	border-spacing: 1px;
+	background-color: #e7e7e7;
+	color: #666;
+	color:#000000;
+}
+
+table.regprocommon td,
+table.regprocommon th { padding: 4px; }
+
+table.regprocommon thead th {
+	text-align: center;
+	background: #f0f0f0;
+	color: #666;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #fff;
+}
+
+table.regprocommon thead a:hover { text-decoration: none; }
+
+table.regprocommon thead th img { vertical-align: middle; }
+
+table.regprocommon tbody th { font-weight: bold; }
+
+table.regprocommon tbody tr			{ background-color: #fff;  text-align: left;}
+table.regprocommon tbody tr.row1 	{ background: #f9f9f9; border-top: 1px solid #fff; }
+
+table.regprocommon tbody tr.row0:hover td,
+table.regprocommon tbody tr.row1:hover td  { background-color: #ffd ; }
+
+table.regprocommon tbody tr td 	   { height: 25px; border: 0px solid #fff;}
+table.regprocommon tbody tr.row1 td { background: #f9f9f9; border-top: 1px solid #FFF; }
+
+table.regprocommon tfoot tr { text-align: center;  color: #333; }
+table.regprocommon tfoot td,
+table.regprocommon tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.regprocommon td.order 		{ text-align: center; white-space: nowrap; }
+table.regprocommon td.order span { float: left; display: block; width: 20px; text-align: center; }
+
+/** End common Table styles **/
+
+/** Cart Table styles **/
+
+table.regprocart{
+	width: 100%;
+	border-spacing: 1px;
+	background-color: #e7e7e7;
+	color:#000000;
+}
+table.regprocart tr,td{
+	border:solid 0px;
+}
+
+table.regprocart td,
+table.regprocart th { padding: 4px; }
+
+table.regprocart thead th {
+	text-align: center;
+	background: #f0f0f0;
+	color: #666;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #fff;
+}
+
+table.regprocart thead a:hover { text-decoration: none; }
+
+table.regprocart thead th img { vertical-align: middle; }
+
+table.regprocart tbody th { font-weight: bold; }
+
+table.regprocart tbody tr			{ background-color: #fff;  text-align: left;}
+table.regprocart tbody tr.row1 	{ background: #f9f9f9; border-top: 1px solid #fff; }
+
+table.regprocart tbody tr.row0:hover td,
+table.regprocart tbody tr.row1:hover td  { background-color: #ffd ; }
+
+table.regprocart tbody tr td 	   { height: 20px; background: #fff; border: 1px solid #00000; border:solid 0px;}
+table.regprocart tbody tr.row1 td { background: #f9f9f9; border-top: 1px solid #FFF; border:solid 0px;}
+
+table.regprocart tfoot tr { text-align: center;  color: #333; }
+table.regprocart tfoot td,
+table.regprocart tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.regprocart td.order 		{ text-align: center; white-space: nowrap; }
+table.regprocart td.order span { float: left; display: block; width: 20px; text-align: center; }
+
+/** End cart Table styles **/
+
+
+/** Main Listing Table styles **/
+
+table.adminlist {
+	width: 100%;
+	border-spacing: 1px;
+	background-color: #e7e7e7;
+	color: #000000;
+}
+
+table.adminlist td,
+table.adminlist th { padding: 4px; }
+
+table.adminlist thead th {
+	text-align: center;
+	background: #f0f0f0;
+	color: #666;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #fff;
+}
+
+table.adminlist thead a:hover { text-decoration: none; }
+
+table.adminlist thead th img { vertical-align: middle; }
+
+table.adminlist tbody th { font-weight: bold; }
+
+table.adminlist tbody tr			{ background-color: #fff;  text-align: left; }
+table.adminlist tbody tr.row1 	{ background: #f9f9f9; border-top: 1px solid #fff; }
+
+table.adminlist tbody tr.row0:hover td,
+table.adminlist tbody tr.row1:hover td  { background-color: #ffd ; }
+
+table.adminlist tbody tr td 	   { height: 25px; background: #fff; border: 1px solid #fff; }
+table.adminlist tbody tr.row1 td { background: #f9f9f9; border-top: 1px solid #FFF; }
+
+table.adminlist tfoot tr { text-align: center;  color: #333; }
+table.adminlist tfoot td,
+table.adminlist tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.adminlist td.order 		{ text-align: center; white-space: nowrap; }
+table.adminlist td.order span { float: left; display: block; width: 20px; text-align: center; }
+
+table.adminlist .pagination { display:table; padding:0;  margin:0 auto;	 }
+
+/************ Final checkout page styles ********************/
+
+#order_page_title {
+	font-size:13px;
+	font-weight:bold;
+	padding: 3px 3px 3px 3px;
+}
+
+#go_back_cart {	
+	padding: 3px 3px 3px 3px;
+}
+
+/******************************************************* End Table styles *******************************************************************************/
+
+
+/* pane-sliders */
+.pane-sliders .title {
+margin: 0;
+padding: 2px;
+color: #666;
+cursor: pointer;
+}
+
+.pane-sliders .panel { border: 1px solid #ccc; margin-bottom: 3px;}
+.pane-sliders .panel h3 { background: #f6f6f6; color: #666}
+.pane-sliders .content { background: #f6f6f6; }
+.pane-sliders .adminlist { border: 0 none; }
+.pane-sliders .adminlist td { border: 0 none; }
+.jpane-toggler span { background: transparent url(../images/j_arrow.png) 5px 50% no-repeat; padding-left: 20px;}
+.jpane-toggler-down span { background: transparent url(../images/j_arrow_down.png) 5px 50% no-repeat; padding-left: 20px;}
+.jpane-toggler-down { border-bottom: 1px solid #ccc; }
+
+/* tabs */
+
+dl.tabs {
+float: left;
+margin: 10px 0 -1px 0;
+z-index: 50;
+}
+
+dl.tabs dt {
+float: left;
+padding: 4px 10px;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
+border-top: 1px solid #ccc;
+margin-left: 3px;
+background: #f0f0f0;
+color: #666;
+}
+
+dl.tabs dt.open {
+background: #F9F9F9;
+border-bottom: 1px solid #F9F9F9;
+z-index: 100;
+color: #000;
+}
+
+div.current {
+clear: both;
+border: 1px solid #ccc;
+padding: 10px 10px;
+}
+
+div.current dd {
+padding: 0;
+margin: 0;
+}
+
+.regpro_bottom_border {
+	border-bottom: 1px solid;
+	border-right:0px;
+	border-left:0px;
+	border-top:0px;
+}
+
+
+/* ++++++++++++++  pagination  ++++++++++++++ */
+
+#regpro .pagination .list-footer {
+	margin: 4px 4px 4px 4px;
+}
+
+#regpro .pagination div.limit select {
+	width: auto;
+	margin: 4px 4px 4px 4px;
+}
+
+#regpro .pagination
+{
+        margin:10px 0 ;
+        padding:10px 0 10px 0px;
+        clear:both;
+
+}
+
+#regpro .pagination ul
+{
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        text-align:left;
+}
+
+#regpro .pagination li
+{
+        display:inline;
+        padding:2px 5px;
+        text-align:left;
+        border:solid 0px #eee;
+        margin:0 2px
+}
+
+#regpro .pagenav
+{
+	clear: both;
+}
+
+#regpro .pagination li.pagination-start,
+#regpro .pagination li.pagination-next,
+#regpro .pagination li.pagination-end,
+#regpro .pagination li.pagination-prev
+{border:0px;}
+
+#regpro .pagination li.pagination-start ,
+#regpro .pagination li.pagination-start  span
+ {
+padding:0px;
+
+}
+
+#regpro .pagination .pagenav {
+	clear: none;
+}
+
+p.counter
+{
+        font-weight:bold;
+}
+
+/******************** Session page css *******************/
+
+#regproSessions { margin: 0px 0px 0px 0px; }
+
+#event_session_header { margin: 4px 4px 4px 4px; }
+
+.session_date { font-weight:bold; size:12px; padding: 4px 4px 4px 4px; background-color: #DDDDDD;}
+
+/************************************ Don't change these classes (Use by javascript classes)*******************************/
+
+input.errHilite, select.errHilite, textarea.errHilite {
+	border: 1px solid #DDC;
+	background-color: #FFE;
+	}
+label.errHilite {
+	color: #C00;
+	}
+	
+div#errors {
+	display: none;
+	margin-top: 1em;
+	background-color: #FFE;
+	border: 1px solid #CC9;
+	padding: .3em;
+	color: #C00;
+	font-weight: bold;
+	}
+	
+div#errors li {
+	list-style-type: none;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	padding: 1px;
+	}
+div#errors li.heading {
+	list-style-type: none;
+	color: #000;
+	font-weight: normal;
+	font-style: normal;
+	margin: .2em 0;
+	padding: 1px;
+	}
+/***************************************** END Don't change these classes ****************************************/
+
+/* AddThisEvent */
+div#regpro .addthisevent-drop 						{
+/*	display:inline-block;
+	position:relative;
+	z-index:999998;
+	font-family:arial;
+	color:#333!important;
+	background:#f4f4f4 url(http://www.addthisevent.com/gfx/icon-calendar-t1.png) no-repeat 9px 50%;
+	text-decoration:none;
+	border:1px solid #d9d9d9;
+	color:#555;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+	padding:9px 12px 8px 35px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;*/
+	
+	display: inline-block;
+	position:relative;
+	padding: 4px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: #f5f5f5;
+	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+	background-repeat: repeat-x;
+	border: 1px solid #cccccc;
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	border-bottom-color: #b3b3b3;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+div#regpro .addthisevent-drop:hover {
+	/*border:1px solid #aab9d4;
+	color:#555;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;*/
+	
+	color: #333333;
+	text-decoration: none;
+	background-position: 0 -15px;
+	-webkit-transition: background-position 0.1s linear;
+	-moz-transition: background-position 0.1s linear;
+	-o-transition: background-position 0.1s linear;
+	transition: background-position 0.1s linear;
+	
+}
+.addthisevent-drop:active {
+	top:1px;
+}
+.addthisevent-selected {
+	background-color:#f7f7f7;
+}
+.addthisevent_dropdown {
+	width:200px;
+	position:absolute;
+	z-index:99999;
+	padding:6px 0px 0px 0px;
+	background:#fff;
+	text-align:left;
+	display:none;
+	margin-top:-2px;margin-left:-1px;
+	border-top:1px solid #c8c8c8;
+	border-right:1px solid #bebebe;
+	border-bottom:1px solid #a8a8a8;
+	border-left:1px solid #bebebe;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-webkit-box-shadow:1px 3px 6px rgba(0,0,0,0.15);
+	-moz-box-shadow:1px 3px 6px rgba(0,0,0,0.15);
+	box-shadow:1px 3px 6px rgba(0,0,0,0.15);
+}
+
+.addthisevent_dropdown span {
+	width:175px;
+	display:block;
+	line-height:110%;
+	background:#fff;
+	text-decoration:none;
+	font-size:12px;
+	color:#6d84b4;
+	padding:8px 10px 9px 15px;
+}
+.addthisevent_dropdown span:hover {
+	background:#f4f4f4;
+	color:#6d84b4;
+	text-decoration:none;
+	font-size:12px;
+}
+.addthisevent span { 
+	display:none!important;
+}
+.addthisevent-drop ._url,.addthisevent-drop ._start,.addthisevent-drop ._end,.addthisevent-drop ._summary,.addthisevent-drop ._description,.addthisevent-drop ._location,.addthisevent-drop ._organizer,.addthisevent-drop ._organizer_email,.addthisevent-drop ._facebook_event,.addthisevent-drop ._all_day_event {
+	display:none!important;
+}
+.addthisevent_dropdown .copyx {
+	width:200px;
+	height:21px;
+	display:block;
+	position:relative;
+	cursor:default;
+}
+
+.addthisevent_dropdown .brx {
+	width:180px;
+	height:1px;
+	overflow:hidden;
+	background:#e0e0e0;
+	position:absolute;
+	z-index:100;
+	left:10px;
+	top:9px;
+}
+
+.addthisevent_dropdown .frs {
+	position:absolute;
+	top:5px;
+	cursor:pointer;right:10px;
+	padding-left:10px;
+	font-style:normal;
+	font-weight:normal;
+	text-align:right;
+	z-index:101;
+	line-height:110%;
+	background:#fff;
+	text-decoration:none;
+	font-size:9px;
+	color:#cacaca;
+}
+
+.addthisevent_dropdown .frs:hover {
+	color:#6d84b4;
+}
+.addthisevent {
+	visibility:hidden;
+}
+
+/* added on 13th Oct 2013*/
+.tooltip {
+	position: absolute;
+	z-index: 1030;
+	display: block;
+	visibility: visible;
+	font-size: 11px;
+	line-height: 1.4;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.tooltip.in {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+.tooltip.top {
+	margin-top: -3px;
+	padding: 5px 0;
+}
+.tooltip.right {
+	margin-left: 3px;
+	padding: 0 5px;
+}
+.tooltip.bottom {
+	margin-top: 3px;
+	padding: 5px 0;
+}
+.tooltip.left {
+	margin-left: -3px;
+	padding: 0 5px;
+}
+.tooltip-inner {
+	max-width: 200px;
+	padding: 8px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background-color: #000;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.tooltip-arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+}
+.tooltip.top .tooltip-arrow {
+	bottom: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px 5px 0;
+	border-top-color: #000;
+}
+.tooltip.right .tooltip-arrow {
+	top: 50%;
+	left: 0;
+	margin-top: -5px;
+	border-width: 5px 5px 5px 0;
+	border-right-color: #000;
+}
+.tooltip.left .tooltip-arrow {
+	top: 50%;
+	right: 0;
+	margin-top: -5px;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #000;
+}
+.tooltip.bottom .tooltip-arrow {
+	top: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 0 5px 5px;
+	border-bottom-color: #000;
+}
+
+/********* CODE ADDED ON 05-03-2014 *****************/
+
+/************************************ FRONT END EVENTS LIST VIEW********************************************/
+@media only screen and (max-width : 320px) {
+	.btn-toolbar button{
+		clear: both !important;
+		width: 100% !important;
+		margin-bottom: 2px;
+		float: left !important;
+	}
+	.regpro_outline{
+	  overflow: auto;
+	  overflow-y: hidden;
+	  clear: both;
+	}
+
+	.sorting_box{
+		float:right;
+		padding: 0px !important;
+		margin-right: 0 !important;
+	}
+	
+	.controls .btn{
+		width: 58px !important;
+	}
+	
+	.btn-group{
+		white-space: nowrap !important;
+		padding: 2px !important;
+		float: right;
+	}
+	
+	table.eventlisting {
+		width: 100% !important;
+		padding: 0px !important;
+	}
+	table.eventlisting td,	table.eventlisting th { padding: 1px !important;}
+	
+	#searchevent{
+		float: left !important;
+	}
+	
+	#searchevent td{
+		clear: both;
+		min-width: 100px !important;
+		float: left !important;
+		height: auto !important;
+	}
+	
+	#searchevent input[type="text"]{
+		width: 100% !important;
+		height: 20px !important;
+	}
+
+	.regpro_outline  .eventlisting .regpro_button{
+		padding: 0 !important;
+		text-align: left !important;
+		width: 85px !important;
+		font-size: 11px !important;
+	}
+	
+	.regpro_outline .regpro_button{
+		/*width: 230px !important;*/
+		font-size: 11px !important;
+	}
+	
+	
+	.regpro_outline  button{
+		float: left !important;
+		width: 100% !important;
+		margin-bottom: 5px;
+	}
+	
+	.addthisevent-drop{
+		max-width: 200px !important;
+	}
+	
+	table.regproform td{
+		width: 100px !important;
+		float: left !important;
+		height: auto !important;
+		font-size: 11px;
+		text-align: left !important;
+	}
+	
+	.regpro_button{
+		width: 232px !important;
+	}
+	
+	#finalcheckout select{
+		width: 172px !important;
+	}
+	.tip { Z-INDEX: 13000; WIDTH: 250px !important; COLOR: #000;margin-right: -110px !important; margin-top: 20px; float: right; }	
+	
+	table.adminform td{
+		float: left ;
+		font-size: 11px;
+		text-align: left;
+	}
+	
+	.adminform #dates_img,#enddates_img,#regstart_img,#regstop_img,#recurrence_counter_img{
+		width: 50px !important;
+		margin: auto;
+		float: right;
+	}
+	
+	.adminform #dates,#enddates,#regstart,#regstop,#recurrence_counter{
+		float: left;
+		width: 70%;
+	}
+	
+	.adminform iframe{height: 100px !important;}	
+	
+	#list_ticket .adminform{
+		width: 240px !important;
+		white-space: no-space !important;
+	}
+	
+	#list_ticket table{width: 100% !important;}
+	#adminForm table{float: left;}
+	
+	.myForm input[type='text']{
+		width: 150px !important;
+	}
+	.myForm table td {float: left !important; width: 100%;}
+	
+	.editor{
+		width: 96% !important;
+	}
+	
+	#my-form-field table td{
+		float: none !important;
+		width: 50px !important;
+	}
+	
+	#my-form-field .regpro_inputbox{
+		width: 20px !important;
+	}
+	
+	.list-my-tickets table,.my-group-discount table,.my-early-discount table{
+		width: 100%;
+	}
+	
+	.my-group-discount table td,.my-early-discount table td{
+		width: 88px !important;
+		text-align: center;
+	}
+	
+	.my-group-discount table td:first-child,.my-early-discount table td:first-child{ width: 10px !important;}
+	
+	.list-my-tickets td:first-child{
+		width: 10px !important;
+	}
+	
+	.list-my-tickets td{
+		
+		width: 30px !important;
+	}
+	
+	#add_session td{
+		width: 100% !important;
+		text-align: left !important;
+	}
+	
+	#session_page_header,#description{
+		width: 200px !important;
+	}
+	
+	#add_session input[type='text']{
+		width: 90% !important;
+	}
+	
+	#list_session{
+		width: 100% !important;
+	}
+	
+	#regpro_outline .regproform td {
+		float: left !important;
+		display:inline-table;
+		margin-left: 10px;
+		
+	}
+	
+	#regpro_outline .regproform tr:last-child td:last-child {
+		margin-left: 2px;
+	}
+	
+	.tick_header{
+		text-align: center;
+	}
+	#cartform table{
+		overflow: hidden;
+	}
+}
+
+@media only screen and (max-width : 360px) {
+		
+	.btn-toolbar button{
+		clear: both !important;
+		width: 100% !important;
+		margin-bottom: 2px;
+		float: left !important;
+	}
+	.regpro_outline{
+	  overflow: auto;
+	  overflow-y: hidden;
+	  clear: both;
+	}
+
+	.sorting_box{
+		float:right;
+		padding: 0px !important;
+		margin-right: 0 !important;
+	}
+	
+	.controls .btn{
+		width: 58px !important;
+	}
+	
+	.btn-group{
+		white-space: nowrap !important;
+		padding: 2px !important;
+		float: right;
+	}
+	
+	table.eventlisting {
+		width: 100% !important;
+		padding: 0px !important;
+	}
+	table.eventlisting td,	table.eventlisting th { padding: 1px !important;}
+	
+	#searchevent{
+		float: left !important;
+	}
+	#searchevent td{
+		clear: both;
+		min-width: 100px !important;
+		float: left !important;
+		height: auto !important;
+	}
+	
+	#searchevent input[type="text"]{
+		width: 100% !important;
+		height: 20px !important;
+	}
+
+	.regpro_outline  .eventlisting .regpro_button{
+		padding: 0 !important;
+		text-align: left !important;
+		width: 85px !important;
+		font-size: 11px !important;
+	}
+	
+	.regpro_outline .regpro_button{
+		/*width: 230px !important;*/
+		font-size: 11px !important;
+	}
+	
+	
+	.regpro_outline  button{
+		float: left !important;
+		width: 100% !important;
+		margin-bottom: 5px;
+	}
+	
+	.addthisevent-drop{
+		width: 240px !important;
+	}
+	
+	table.regproform td{
+		min-width: 100px !important;
+		float: left !important;
+		height: auto !important;
+		font-size: 11px;
+		text-align: left !important;
+	}
+	
+	.regpro_button{
+		width: 232px !important;
+	}
+	
+	
+	#finalcheckout select{
+		width: 172px !important;
+	}
+	
+	.tip { Z-INDEX: 13000; WIDTH: 250px !important; COLOR: #000;margin-right: -110px !important; margin-top: 20px; float: right; }
+	
+	/*******************WEDNESDAY - 05 - MARCH - 2014***********************/
+	#location-form  table td{
+		float: left !important;
+		width: 100% !important;
+	}
+	
+	#location-form .regpro_inputbox{
+		width: 95% !important;
+		height: 20px !important;
+	}
+	
+	#location-form  #latitude,#location-form #longitude{
+		width: 93% !important;
+		height: 20px !important;
+	}
+	
+	.editor{
+		width: 96% !important;
+	}
+	table.adminform td{
+		float: left ;
+		font-size: 11px;
+		text-align: left;
+	}
+	
+	.adminform .starttime,.adminform .endtime{
+		width: 100%;
+	}
+	
+	.adminform .max_attendance{ width: 94%;}
+	.adminform #dates_img,#enddates_img,#regstart_img,#regstop_img,#recurrence_counter_img{
+		width: 50px !important;
+		margin: auto;
+		float: right;
+	}
+	
+	.adminform #dates,#enddates,#regstart,#regstop,#recurrence_counter{
+		float: left;
+		width: 70%;
+	}
+	
+	.adminform iframe{height: 100px !important;}	
+	
+	#list_ticket .adminform{
+		width: 240px !important;
+		white-space: no-space !important;
+	}
+	
+	#list_ticket table{width: 100% !important;}
+	#adminForm table{float: left;}
+	
+	.myForm input[type='text']{
+		width: 150px !important;
+	}
+	.myForm table td {float: left !important; width: 100%;}
+	
+	#my-form-field table td{
+		float: none !important;
+		width: 50px !important;
+	}
+	
+	#my-form-field .regpro_inputbox{
+		width: 20px !important;
+	}
+	
+	.list-my-tickets table,.my-group-discount table,.my-early-discount table{
+		width: 100%;
+	}
+	
+	.my-group-discount table td,.my-early-discount table td{
+		width: 88px !important;
+		text-align: center;
+	}
+	
+	.my-group-discount table td:first-child,.my-early-discount table td:first-child{ width: 10px !important;}
+	
+	.list-my-tickets td:first-child{
+		width: 10px !important;
+	}
+	
+	.list-my-tickets td{
+		
+		width: 30px !important;
+	}
+	
+	#add_session td{
+		width: 100% !important;
+		text-align: left !important;
+	}
+	
+	#session_page_header,#description{
+		width: 200px !important;
+	}
+	
+	#add_session input[type='text']{
+		width: 90% !important;
+	}
+	
+	#list_session{
+		width: 100% !important;
+	}
+	/************************************/
+}
+
+@media only screen and (max-width : 480px) {
+			
+	.btn-toolbar button{
+		clear: both !important;
+		width: 100% !important;
+		margin-bottom: 2px;
+		float: left !important;
+	}
+	.regpro_outline{
+	  overflow: auto;
+	  overflow-y: hidden;
+	  clear: both;
+	}
+
+	.sorting_box{
+		float:right;
+		padding: 0px !important;
+		margin-right: 0 !important;
+	}
+	
+	.controls .btn{
+		width: 58px !important;
+	}
+	
+	.btn-group{
+		white-space: nowrap !important;
+		padding: 2px !important;
+		float: right;
+	}
+	
+	table.eventlisting {
+		width: 100% !important;
+		padding: 0px !important;
+	}
+	table.eventlisting td,	table.eventlisting th { padding: 1px !important;}
+	
+	#searchevent{
+		float: left !important;
+	}
+	#searchevent td{
+		clear: both;
+		min-width: 100px !important;
+		float: left !important;
+		height: auto !important;
+	}
+	
+	#searchevent input[type="text"]{
+		width: 100% !important;
+		height: 20px !important;
+	}
+
+	.regpro_outline  .eventlisting .regpro_button{
+		padding: 0 !important;
+		text-align: left !important;
+		width: 85px !important;
+		font-size: 11px !important;
+	}
+	
+	.regpro_outline .regpro_button{
+		/*width: 230px !important;*/
+		font-size: 11px !important;
+		text-align: center !important;
+	}
+	
+	
+	.regpro_outline  button{
+		float: left !important;
+		width: 100% !important;
+		margin-bottom: 5px;
+	}
+	
+	.addthisevent-drop{
+		width: 360px;
+	}
+	
+	table.regproform td{
+		min-width: 100px !important;
+		float: left !important;
+		height: auto !important;
+		font-size: 11px;
+		text-align: left !important;
+	}
+	
+	.eventlisting .regpro_button{
+		width: 232px !important;
+		text-align: center !important;
+	} 
+	
+	.regpro_button{
+		width: 232px !important;
+	}
+	
+	
+	#finalcheckout select{
+		width: 200px;
+	}
+	
+	input[type="submit"],input[type="button"]{
+		padding: 5px !important;
+		text-align: center !important;
+		margin-bottom: 5px;
+	}
+	
+	#coupon_code{width:20% !important;}
+}
+
+@media only screen and (max-width : 768px) {
+	.btn-toolbar button{
+		clear: both !important;
+		width: 100% !important;
+		margin-bottom: 2px;
+		float: left !important;
+	}
+	.regpro_outline{
+	  overflow: scroll;
+	  overflow-y: hidden;
+	  clear: both;
+	}
+
+	.sorting_box{
+		float:right;
+		padding: 0px !important;
+		margin-right: 0 !important;
+	}
+	
+	.controls .btn{
+		width: 58px !important;
+	}
+	
+	.btn-group{
+		white-space: nowrap !important;
+		padding: 2px !important;
+		float: right;
+	}
+	
+	table.eventlisting {
+		width: 100% !important;
+		padding: 0px !important;
+	}
+	table.eventlisting td,	table.eventlisting th { padding: 1px !important;}
+	
+	#searchevent{
+		float: left !important;
+	}
+	#searchevent td{
+		clear: both;
+		min-width: 100px !important;
+		float: left !important;
+		height: auto !important;
+	}
+	
+	#searchevent input[type="text"]{
+		width: 100% !important;
+		height: 20px !important;
+	}
+
+	.regpro_outline  .eventlisting .regpro_button{
+		padding: 0 !important;
+		text-align: left !important;
+		width: 85px !important;
+		font-size: 11px !important;
+	}
+	
+	.regpro_outline .regpro_button{
+		/*width: 230px !important;*/
+		font-size: 11px !important;
+		text-align: center !important;
+	}
+	
+	
+	.regpro_outline  button{
+		float: left !important;
+		width: 100% !important;
+		margin-bottom: 5px;
+	}
+	
+	.addthisevent-drop{
+		width: 360px;
+	}
+	
+	table.regproform td{
+		min-width: 100px !important;
+		float: left !important;
+		height: auto !important;
+		font-size: 11px;
+		text-align: left !important;
+	}
+	
+	.eventlisting .regpro_button{
+		width: 232px !important;
+		text-align: center !important;
+	} 
+	
+	.regpro_button{
+		width: 232px !important;
+	}
+	
+	
+	#finalcheckout select{
+		width: 200px;
+	}
+	
+	input[type="submit"],input[type="button"]{
+		padding: 5px !important;
+		text-align: center !important;
+		margin-bottom: 5px;
+	}
+	
+	/*******************WEDNESDAY - 05 - MARCH - 2014***********************/
+	#location-form  table td{
+		float: left !important;
+		width: 100% !important;
+	}
+	
+	#location-form .regpro_inputbox{
+		width: 95% !important;
+		height: 20px !important;
+	}
+	
+	#location-form  #latitude,#location-form #longitude{
+		width: 93% !important;
+		height: 20px !important;
+	}
+	
+	.editor{
+		width: 96% !important;
+	}
+	table.adminform td{
+		float: left ;
+		font-size: 11px;
+		text-align: left;
+		width: 100%;
+	}
+	
+	.adminform .starttime,.adminform .endtime{
+		width: 40%;
+	}
+	
+	.adminform .max_attendance{ width: 40%;}
+	
+	.adminform #dates_img,#enddates_img,#regstart_img,#regstop_img,#recurrence_counter_img{
+		width: 50px !important;
+		margin: auto;
+		float: right;
+	}
+	
+	.adminform #dates,#enddates,#regstart,#regstop,#recurrence_counter{
+		float: left;
+		width: 70%;
+	}
+	
+	.adminform iframe{height: 100px !important;}	
+	
+	#list_ticket .adminform{
+		width: 240px !important;
+		white-space: no-space !important;
+	}
+	
+	#list_ticket table{width: 100% !important;}
+	#adminForm table{float: left;}
+	
+	.myForm input[type='text']{
+		width: 150px !important;
+	}
+	.myForm table td {float: left !important; width: 100%;}
+	
+	#my-form-field table td{
+		float: none !important;
+		width: 50px !important;
+	}
+	
+	#my-form-field .regpro_inputbox{
+		width: 20px !important;
+	}
+	
+	.list-my-tickets table,.my-group-discount table,.my-early-discount table{
+		width: 100%;
+	}
+	
+	.my-group-discount table td,.my-early-discount table td{
+		width: 88px !important;
+		text-align: center;
+	}
+	
+	.my-group-discount table td:first-child,.my-early-discount table td:first-child{ width: 10px !important;}
+	
+	.list-my-tickets td:first-child{
+		width: 10px !important;
+	}
+	
+	.list-my-tickets td{
+		
+		width: 30px !important;
+	}
+	
+	#add_session td{
+		width: 100% !important;
+		text-align: left !important;
+	}
+	
+	#session_page_header,#description{
+		width: 200px !important;
+	}
+	
+	#add_session input[type='text']{
+		width: 90% !important;
+	}
+	
+	#list_session{
+		width: 100% !important;
+	}
+	#searchevent table td{
+		width: 100%;
+	}
+	
+	#searchevent .regpro_button{
+		width: 42%;
+		margin-left: 10px;
+	}
+	#searchevent input[type='text']{width: 93% !important;}
+	/************************************/
+	
+	#coupon_code{width:50%;}
+	
+}
+
+@media only screen and (max-width : 800px) {
+	.btn-toolbar button{
+		clear: both !important;
+		width: 100% !important;
+		margin-bottom: 2px;
+		float: left !important;
+	}
+	.regpro_outline{
+	  overflow: auto;
+	  overflow-y: hidden;
+	  clear: both;
+	}
+
+	.sorting_box{
+		float:right;
+		padding: 0px !important;
+		margin-right: 0 !important;
+	}
+	
+	.controls .btn{
+		width: 58px !important;
+	}
+	
+	.btn-group{
+		white-space: nowrap !important;
+		padding: 2px !important;
+		float: right;
+	}
+	
+	table.eventlisting {
+		width: 100% !important;
+		padding: 0px !important;
+	}
+	table.eventlisting td,	table.eventlisting th { padding: 1px !important;}
+	
+	#searchevent{
+		float: left !important;
+	}
+	#searchevent td{
+		clear: both;
+		min-width: 100px !important;
+		float: left !important;
+		height: auto !important;
+	}
+	
+	#searchevent input[type="text"]{
+		width: 100% !important;
+		height: 20px !important;
+	}
+
+	.regpro_outline  .eventlisting .regpro_button{
+		padding: 0 !important;
+		text-align: left !important;
+		width: 85px !important;
+		font-size: 11px !important;
+	}
+	
+	.regpro_outline .regpro_button{
+		/*width: 230px !important;*/
+		font-size: 11px !important;
+		text-align: center !important;
+	}
+	
+	
+	.regpro_outline  button{
+		float: left !important;
+		width: 100% !important;
+		margin-bottom: 5px;
+	}
+	
+	.addthisevent-drop{
+		width: 360px;
+	}
+	
+	table.regproform td{
+		min-width: 100px !important;
+		float: left !important;
+		height: auto !important;
+		font-size: 11px;
+		text-align: left !important;
+	}
+	
+	.eventlisting .regpro_button{
+		width: 232px !important;
+		text-align: center !important;
+	} 
+	
+	.regpro_button{
+		width: 232px !important;
+	}
+	
+	
+	#finalcheckout select{
+		width: 200px;
+	}
+	
+	input[type="submit"],input[type="button"]{
+		padding: 5px !important;
+		text-align: center !important;
+		margin-bottom: 5px;
+	}
+	
+	#regpro_calendarMonthHeaderss .btn{
+		width: 60px !important;
+		font-size: 10px;
+		font-weight: bold;
+	}
+	
+	#regpro_calendarMonthHeaderss select{
+		width: 60px;
+		font-size: 12px;
+		text-align: center;
+	}
+	
+	.regpro-table-bordered td{
+		height: 30px !important;
+	}
+	.icon-chevron-left{
+		margin-left: -14px;
+	}
+	
+	.icon-chevron-right{
+		margin-left: -4px;
+	}
+}
+
+@media only screen and (max-width : 980px) {
+	.regpro_outline {
+	  overflow: auto;
+	  overflow-y: hidden;
+	}
+	
+	.eventlisting .regpro_button{
+		padding: 0 !important;
+		text-align: left !important;
+		width: 90px ;
+	}
+	
+	#searchevent td{
+		
+		min-width: 100px !important;
+		
+		height: auto !important;
+	}
+	
+	#searchevent input[type="text"]{
+		width: 40% ;
+		height: 20px ;
+	}
+
+	.regpro_vmiddle_acenter .regpro_button{
+		width: auto!important;
+		height: auto;
+		padding: 10px !important;
+	}
+}
+
+.row0 .regpro_button{
+		padding: 0 !important;
+		text-align: left !important;
+		width: 90px;
+}
+
+@media only screen and (max-width : 1366px){
+
+	#regpro_outline{
+		overflow: auto;
+		overflow-y: hidden;
+	}
+	
+	#regpro .adminlist{
+	  clear: both;
+	  overflow: auto;
+	  overflow-y: hidden;
+	}
+	#searchevent input[type="text"]{
+		width: 100% !important;
+		height: 20px !important;
+	}
+	
+	.user-toolbar,.events_toolbar,.mycategories-toolbar,.myforms-toolbar,.myforms-fields-toolbar{
+		float: left;
+		margin-top: 10px;
+	}
+	
+	.user-toolbar td,.events_toolbar td,.mycategories-toolbar td,.myforms-toolbar td,.myforms-fields-toolbar td{
+		width: 100%px !important;
+		text-align:center;
+	}
+	
+	.events_toolbar{
+		margin-bottom: 10px;
+	}
+	
+	.adminForm{
+		clear: both;
+		float: left;
+	}
+
+	.regpro_outline{
+		clear: both;
+	}
+	
+	/*******************WEDNESDAY - 05 - MARCH - 2014***********************/
+	#location-form  table td{
+		float: left !important;
+		width: 100% !important;
+	}
+	
+	#location-form .regpro_inputbox{
+		width: 95% !important;
+		height: 20px !important;
+	}
+	
+	#location-form  #latitude,#location-form #longitude{
+		width: 93% !important;
+		height: 20px !important;
+	}
+	
+	.editor{
+		width: 96% !important;
+	}
+	table.adminform td{
+		float: left ;
+		font-size: 11px;
+		text-align: left;
+		width: 100%;
+	}
+	
+	.adminform .starttime,.adminform .endtime{
+		width: 40%;
+	}
+	
+	.adminform .max_attendance{ width: 40%;}
+	
+	.adminform #dates_img,#enddates_img,#regstart_img,#regstop_img,#recurrence_counter_img{
+		width: 50px !important;
+		margin: auto;
+		float: right;
+	}
+	
+	.adminform #dates,#enddates,#regstart,#regstop,#recurrence_counter{
+		float: left;
+		width: 70%;
+	}
+	
+	.adminform iframe{height: 100px !important;}	
+	
+	#list_ticket .adminform{
+		width: 240px !important;
+		white-space: no-space !important;
+	}
+	
+	#list_ticket table{width: 100% !important;}
+	#adminForm table{float: left;}
+	
+	.myForm input[type='text']{
+		width: 100% !important;
+	}
+	
+	.myForm table td {float: left !important; width: 100%;}
+	
+	#my-form-field table td{
+		float: none !important;
+		width: 50px !important;
+	}
+	
+	#my-form-field .regpro_inputbox{
+		width: 20px !important;
+	}
+	
+	.list-my-tickets table,.my-group-discount table,.my-early-discount table{
+		width: 100%;
+	}
+	
+	.my-group-discount table td,.my-early-discount table td{
+		width: 88px !important;
+		text-align: center;
+	}
+	
+	.my-group-discount table td:first-child,.my-early-discount table td:first-child{ width: 10px !important;}
+	
+	.list-my-tickets td:first-child{
+		width: 10px !important;
+	}
+	
+	.list-my-tickets td{
+		
+		width: 30px !important;
+	}
+	
+	#add_session td{
+		width: 100% !important;
+		text-align: left !important;
+	}
+	
+	#session_page_header,#description{
+		width: 200px !important;
+	}
+	
+	#add_session input[type='text']{
+		width: 90% !important;
+	}
+	
+	#list_session{
+		width: 100% !important;
+	}
+	
+	#list_session td:first-child{width: 10px !important;}
+	#list_session td{float: none;width: 20%;}
+	
+	#searchevent table td{
+		width: 100%;
+	}
+	
+	#searchevent .regpro_button{
+		width: 42% !important;
+		margin-left: 10px !important;
+		padding: 5px !important;
+        text-align: center !important;
+	}
+	#searchevent input[type='text']{width: 93% !important;}
+	/************************************/
+}
+
+#searchevent table{width: 50%;}
+.eventlisting .regpro_button{
+	padding: 0 !important;
+	text-align: left !important;
+	width: 85px !important;
+	font-size: 11px !important;
+}
+
+.btn-group{
+	padding: 0px !important;
+}
+a.a_social img{
+	width : 17px;
+}
+.share-btn a {
+    margin: 2px !important;
+}
+.share-btn {
+    float: right;
+    width: 20%;
+	text-align: right;
+	 font-size: 12px;
+}
+.top-left{
+	width : 80%;
+	float : left;
+}
+#regpro-header-toolbar {
+    display: inline-block;
+	width: 100%;
+}
+.a_social{
+	margin-right: 2px;
+}
+/******************* CODE END HERE ******************/

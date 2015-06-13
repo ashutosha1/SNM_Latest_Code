@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="MENUES_EVENT_LOCATION_VIEW_TITLE" option="MENUES_EVENT_LOCATION_VIEW_OPTION">		
+		<message>
+			<![CDATA[MENUES_EVENT_LOCATION_VIEW_MSG]]>
+		</message>
+	</layout>
+	
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_registrationpro/elements">
+			<field name="id" type="regprolocations"
+				section="com_registrationpro"	
+				description="A registrationpro event location"
+				label="Select Location"				
+			/>
+		</fieldset>
+	</fields>	
+	
+</metadata>

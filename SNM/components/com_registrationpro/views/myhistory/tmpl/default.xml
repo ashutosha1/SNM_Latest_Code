@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+
+	<layout title="MENUES_EVENT_USERHISTORY_VIEW_TITLE" option="MENUES_EVENT_USERHISTORY_VIEW_OPTION">		
+		<message>
+			<![CDATA[MENUES_EVENT_USERHISTORY_VIEW_MSG]]>
+		</message>
+	</layout>
+
+</metadata>

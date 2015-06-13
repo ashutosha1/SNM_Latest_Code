@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<!--<author>Joomlashowroom</author>
+	<authorEmail>info@JoomlaShowroom.com</authorEmail>
+	<copyright>Copyright © 2009 - All rights reserved.</copyright>
+	<authorUrl>www.JoomlaShowroom.com</authorUrl>
+	<creationDate>2010-09-01</creationDate>
+
+	<menu>
+		<options var="view">
+			<option value="events" name="Events lists" msg="This is the menu item for display all events lists." />
+			<option value="event" name="Event Detail" msg="This is the menu item for display particular event." />
+			<option value="calendar" name="Event Calendar" msg="This is the menu item for display calendar view for events." />
+			<option value="calendar" name="Event Calendar Category" msg="This is the menu item for display calendar view for particular category events." />
+			<option value="day" name="Event Day" msg="This is the menu item for show the Events happening today." />
+			<option value="category" name="Event Category" msg="This is the menu item for show the Events in particalar category." />
+			<option value="location" name="Event Location" msg="This is the menu item for show the Events in particalar location." />
+			<option value="myhistory" name="User's Events History" msg="User's Events History" />
+		</options>
+	</menu>	-->
+</metadata>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="MENUES_EVENT_VIEW_TITLE" option="MENUES_EVENT_VIEW_OPTION">		
+		<message>
+			<![CDATA[MENUES_EVENT_VIEW_MSG]]>
+		</message>
+	</layout>
+	
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_registrationpro/elements">
+			<field name="did" type="regproevents"
+				section="com_registrationpro"	
+				description="A registrationpro event"
+				label="Select Event"				
+			/>
+		</fieldset>
+	</fields>
+</metadata>

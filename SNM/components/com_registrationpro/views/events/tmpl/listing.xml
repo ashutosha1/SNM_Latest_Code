@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>	
+
+	<layout title="MENUES_EVENTS_NEWLISTING_VIEW_TITLE" option="MENUES_EVENTS_NEWLISTING_VIEW_OPTION">		
+		<message>
+			<![CDATA[MENUES_EVENTS_NEWLISTING_VIEW_MSG]]>
+		</message>
+	</layout>
+			
+</metadata>
