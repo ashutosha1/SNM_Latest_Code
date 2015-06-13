@@ -1,0 +1,9 @@
+In this Flash file is dynamic which reads the data from an XML file named galleries.xml.
+In the XML file there are two types of Nodes(settings node, slide node).
+The first node is used for settings in the flash file
+e.g background color, font color, font size, font name,and interval.
+Interval tag is used to set interval between different text which given under slide nodes.
+If Interval set to zero than text is picked randomly only when flash file compiled again, 
+otherwise text is picked randomly according to interval given.
+Interval is given in millisends. 
+So if you want to give interval for 1 sec then enter the value 1000.  
