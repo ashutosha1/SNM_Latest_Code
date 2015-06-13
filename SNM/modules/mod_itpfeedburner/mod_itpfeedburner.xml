@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>MOD_ITPFEEDBURNER</name>
+	<author>Todor Iliev</author>
+	<copyright>Copyright (C) 2010 Todor Iliev ( ITPrism.com )</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html</license>
+	<authorEmail>todor@itprism.com</authorEmail>
+	<authorUrl>http://itprism.com</authorUrl>
+	<version>1.3</version>
+	<creationDate>22 April, 2013</creationDate>
+	<description>MOD_ITPFEEDBURNER_DESC</description>
+	
+	<languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.mod_itpfeedburner.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_itpfeedburner.sys.ini</language>
+    </languages> 
+    
+	<files>
+		<filename module="mod_itpfeedburner">mod_itpfeedburner.php</filename>
+        <filename>index.html</filename>
+		<filename>README.md</filename>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="itp_fb_title" type="text" size="30" default="Subscribe in a reader" label="MOD_ITPFEEDBURNER_NAME" description="MOD_ITPFEEDBURNER_NAME_DESC" />
+				<field name="itp_fb_url" type="text" size="30" default="" label="MOD_ITPFEEDBURNER_URL" description="MOD_ITPFEEDBURNER_URL_DESC" />
+				
+				<field name="itp_fb_types" type="list" default="icon" label="MOD_ITPFEEDBURNER_FB_TYPES" description="MOD_ITPFEEDBURNER_FB_TYPES_DESC" >
+				   <option value="0">Icon</option>
+				   <option value="1">Counter</option>
+				</field>
+				
+				<field name="@spacer" type="spacer" default="MOD_ITPFEEDBURNER_COUNTER_PARAMS" label="" description="" />
+				
+				<field name="itp_fb_bg" type="text" size="30" default="FFFFFF" label="MOD_ITPFEEDBURNER_BG_COLOUR" description="MOD_ITPFEEDBURNER_BG_COLOUR_DESC" />
+				<field name="itp_fb_text" type="text" size="30" default="135CAE" label="MOD_ITPFEEDBURNER_TEXT_COLOUR" description="MOD_ITPFEEDBURNER_TEXT_COLOUR_DESC" />
+				
+				<field name="itp_fb_animation" type="list" default="0" label="MOD_ITPFEEDBURNER_FB_ANIMATION" description="MOD_ITPFEEDBURNER_FB_ANIMATION_DESC" >
+				   <option value="0">Without Animation</option>
+				   <option value="1">With Animation</option>
+				</field>
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field
+                    name="cache"
+                    type="list"
+                    default="1"
+                    label="COM_MODULES_FIELD_CACHING_LABEL"
+                    description="COM_MODULES_FIELD_CACHING_DESC">
+                    <option
+                        value="1">JGLOBAL_USE_GLOBAL</option>
+                    <option
+                        value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                </field>
+                <field
+                    name="cache_time"
+                    type="text"
+                    default="900"
+                    label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+                    description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+                <field
+                    name="cachemode"
+                    type="hidden"
+                    default="static">
+                    <option
+                        value="static"></option>
+                </field>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
